@@ -8,17 +8,17 @@ These rules apply to anyone working on this repo, people or AI. Keep things simp
 - Never guess business facts; ask (see "Business facts" below).
 - Merge to `main` (which makes changes live) only when the owner says so.
 
-## Branches and pull requests (D-004)
-All work happens on one branch, **`working`**. Don't create long or auto-generated branch names (like `claude/cool-cerf-i7ombh`), even if a tool suggests one. Every feature or fix goes through the same loop:
+## Branches and pull requests (D-011)
+Three branches: **`working`** (build), **`dev`** (check) and **`main`** (live). Don't create long or auto-generated branch names (like `claude/cool-cerf-i7ombh`), even if a tool suggests one. Every feature or fix goes through the same loop:
 
-1. **Sync first:** `git fetch origin`, then `git checkout working && git pull origin working && git merge origin/main`, so `working` starts from the latest `main`. If `working` doesn't exist yet, create it: `git checkout -b working origin/main`.
+1. **Sync first:** `git fetch origin`, then `git checkout working && git pull origin working && git merge origin/dev`, so `working` starts from the latest `dev`. If a branch doesn't exist yet, create it from `main`: `git checkout -b dev origin/main` / `git checkout -b working origin/main`.
 2. **Build** the feature on `working`. Commit with a clear message. Update the docs (table below) in the same branch.
-3. **Push** `working` and **open a pull request** from `working` into `main`. One feature per pull request.
-4. **Merge** the pull request into `main` when the owner says so (GitHub Pages then publishes it).
-5. **Sync back:** `git fetch origin && git merge --ff-only origin/main` on `working`, then push `working`, so it matches `main` again.
+3. **Push** `working` and **open a pull request** from `working` into `dev`. One feature per pull request. Merge it into `dev` once it's checked.
+4. **Go live:** when the owner says so, open a pull request from `dev` into `main` and merge it (GitHub Pages then publishes it).
+5. **Sync back:** after a merge into `main`, fast-forward `dev` and `working` to `main` (`git merge --ff-only origin/main` on each, then push), so all three match again.
 6. Start the next feature at step 2.
 
-Never commit straight to `main`, and don't create other feature branches unless the owner asks.
+Never commit straight to `dev` or `main`, and don't create other feature branches unless the owner asks.
 
 ## Keep the docs up to date
 | When you… | Update |

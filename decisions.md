@@ -10,13 +10,14 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-001 | Static information website with enquiries by phone and WhatsApp; no online ordering or payment | Accepted (enquiry details Proposed) |
 | D-002 | Plain HTML, CSS and JavaScript with no build step | Accepted |
 | D-003 | Own public repo `gujarat-sales`, hosted on the free GitHub Pages address from `main` | Proposed |
-| D-004 | All work on one `working` branch, merged to `main` by pull request | Accepted |
+| D-004 | All work on one `working` branch, merged to `main` by pull request | Replaced by D-011 |
 | D-005 | Enquiries go to +91 78629 37030 (phone and WhatsApp) | Proposed |
 | D-006 | Contact details and shop settings in one file, `js/config.js` | Proposed |
 | D-007 | Brand names as text only, no brand logos on the website | Proposed |
 | D-008 | The website's look follows the visiting card | Proposed |
 | D-009 | The visiting card is kept in `references/` as the source of business facts | Accepted |
 | D-010 | Website in English first; Gujarati later if the owner wants | Proposed |
+| D-011 | Three branches: `working` → `dev` → `main` | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -48,7 +49,7 @@ When you add a decision, add a row here too.
 
 ## D-004 — All work on one `working` branch, merged to `main` by pull request
 - **Date:** 2026-10-19
-- **Status:** Accepted (the owner's rule, same as Aara Culture D-019 and DK-Engineer D-011)
+- **Status:** Replaced by D-011 (the owner added a `dev` branch between `working` and `main`)
 - **Context:** The owner wants one predictable way to add features: a single branch with a short, simple name, and every change reviewed as a pull request before it reaches the live site.
 - **Decision:** Work only on the `working` branch. For each feature: sync `working` with `main`, build, open a pull request from `working` into `main`, merge when the owner says so, then fast-forward `working` to `main` again. Steps are in `CLAUDE.md`.
 - **Alternatives considered:** A new branch per feature (more branches to keep track of); committing straight to `main` (no review step, and every mistake goes live).
@@ -101,3 +102,11 @@ When you add a decision, add a row here too.
 - **Decision:** Build the first version in English, with the product names exactly as on the card. Add a Gujarati version later if the owner asks.
 - **Alternatives considered:** Gujarati only; both languages from the start (twice the text to keep up to date).
 - **Consequences:** Faster first version. Adding Gujarati later means a second set of pages or a language switch.
+
+## D-011 — Three branches: `working` → `dev` → `main`
+- **Date:** 2026-10-19
+- **Status:** Accepted
+- **Context:** The owner wants a `dev` branch as well as `working`, so work can be checked before it reaches the live site. Replaces D-004.
+- **Decision:** Build on `working`. Each feature goes by pull request from `working` into `dev`. When the owner says so, `dev` goes by pull request into `main`, which is live. After that, `dev` and `working` are fast-forwarded to `main`. Steps are in `CLAUDE.md`.
+- **Alternatives considered:** Only `working` → `main`, like Aara Culture and DK-Engineer (D-004); `dev` as a preview copy that is never merged.
+- **Consequences:** Two pull requests per release (`working` → `dev`, then `dev` → `main`), but `main` only changes when the owner is happy with `dev`. Several features can collect on `dev` and go live together.

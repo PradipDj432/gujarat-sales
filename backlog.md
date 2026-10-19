@@ -48,4 +48,5 @@ The few things to do next, in order. Keep this list short and current.
 
 ## Done
 - [x] **Dev** Project docs and rules: `README.md`, `business.md`, `decisions.md`, `backlog.md`, `progress.md`, `CLAUDE.md`, in the same format as Aara Culture and DK-Engineer.
+- [x] **Owner** Branches: `working` → `dev` → `main` (D-011).
 - [x] **Dev** Visiting card photos saved upright in `references/` (D-009); card facts written into `business.md`.

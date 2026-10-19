@@ -24,7 +24,7 @@ The website for **GUJARAT SALES**, Surat (395006), Gujarat: all types of brushes
 - The look follows the visiting card: orange-red and white, bold "GUJARAT" name (D-008).
 
 ## How we work (branches)
-All changes are made on the **`working`** branch, one feature at a time: sync `working` with `main` → build the feature → open a pull request from `working` into `main` → merge it when the owner says so → sync `working` with `main` again. The exact steps are in `CLAUDE.md` → "Branches and pull requests" (D-004).
+Three branches: **`working`** (build) → **`dev`** (check) → **`main`** (live). Each feature is built on `working` and merged into `dev` by pull request. When the owner says so, `dev` is merged into `main` by pull request and goes live; then `dev` and `working` are brought level with `main` again. The exact steps are in `CLAUDE.md` → "Branches and pull requests" (D-011).
 
 ## Folder layout
 ```
@@ -51,4 +51,4 @@ python3 -m http.server 8000
 Then open http://localhost:8000.
 
 ## Hosting (GitHub Pages)
-Not turned on yet. After the first version is merged into `main`: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)` → Save**. Every merge into `main` then goes live in a minute or two.
+Not turned on yet. Once the first version is on `main`: **Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)` → Save**. Every merge into `main` then goes live in a minute or two.
