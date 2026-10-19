@@ -12,7 +12,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 | **Next step** | Add white-background product photos (need image sources the environment can reach, or the owner's own photos). Owner: turn on GitHub Pages. |
 
 ## Where we are
-- **Business:** GUJARAT SALES, Surat - 395006. "All Type Of Brush, Paints Roller & Tools". Contact Vivek Kapadiya, +91 78629 37030. 10 products and 5 brands from the visiting card (details in `business.md`).
+- **Business:** GUJARAT SALES, Surat - 395011. "All Type Of Brush, Paints Roller & Tools". Contact Vivek Kapadiya, +91 78629 37030. 10 products and 5 brands from the visiting card (details in `business.md`).
 - **Website:** built (Home, Products, About, Contact, 404) in white and orange with the DK-Engineer layout (D-017). Call first, then WhatsApp and email (D-014, D-016). Product cards show drawings until photos are added (D-018).
 - **Repo:** project docs (this file, `README.md`, `business.md`, `decisions.md`, `backlog.md`, `CLAUDE.md`) and the visiting card photos in `references/`.
 
@@ -33,3 +33,4 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Owner said the first look was bad and asked for a white and orange theme and white-background photos for each item. Redesigned: sticky header with a Call button, big Call button, trust strip, rounded cards (D-015, D-016). Photos could not be downloaded: this environment's network blocks image sites, so cards use line icons for now.
 - Owner said the second version was only "20 percent" there and asked for a marketing look like the DK-Engineer site. Studied the DK-Engineer repo and rebuilt the site in the same style (D-017): orange hero with a collage, numbered category tiles, feature cards, brands, visit-us block, call-to-action band, four-column footer, inquiry form with WhatsApp or email, phone action bar (Call, WhatsApp, Email), new About page.
 - Removed "no minimum order" from the site. D-013 says nothing about charges or minimum orders goes on the website; it had slipped into the first versions.
+- Owner corrected the address: Shop No. 6, Sardar Nagar-1, Kalyan Nagar, Punagam, Varachha, Surat - 395011 (pin code 395011, not 395006), near the map link https://maps.app.goo.gl/3ByvtqhP69i9da6fA. Updated `js/config.js`, the contact page text and the map (the build environment cannot open that link, so the map is searched by address; to check on the live site).
