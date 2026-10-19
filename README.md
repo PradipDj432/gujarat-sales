@@ -53,7 +53,7 @@ gujarat-sales/
     ├── visiting-card-front.jpg   Front: name, card line, contact person and number
     └── visiting-card-back.jpg    Back: product list, brands, address
 ```
-Product photos: replace a card's `<div class="art">...drawing...</div>` with `<img class="art" src="images/name.jpg" alt="..." width="1000" height="750" loading="lazy">` (D-018).
+Product photos: put `images/products/<product id>.jpg` (the id is the page name without `product-` and `.html`, for example `yellow-line-roller.jpg`) and ask a developer to rebuild the pages, or replace a card's `<div class="art">...drawing...</div>` by hand with `<img class="art" src="images/products/yellow-line-roller.jpg" alt="Yellow Line Roller" width="1000" height="750" loading="lazy">` in `products.html` and in that product's page (D-018). Photos: white background, JPEG, about 1000x750, under 250 KB.
 
 Changing a contact detail: the header, footer, address, phone and email are written into each page's HTML (D-021). Update `js/config.js` first, then search the pages for the old value and change it everywhere (`grep -rn "old value" *.html`). Also check `sitemap.xml` and the `siteUrl` if the web address changes (D-023).
 

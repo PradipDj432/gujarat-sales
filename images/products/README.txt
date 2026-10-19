@@ -1,0 +1,1 @@
+Put one photo per product here, named <product id>.jpg (for example yellow-line-roller.jpg): white background, JPEG, about 1000x750, under 250 KB. The page shows the photo instead of the drawing. See README.md.

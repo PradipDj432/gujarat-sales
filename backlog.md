@@ -9,7 +9,7 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 The few things to do next, in order. Keep this list short and current.
 
 1. **Owner:** confirm the shop sells the products added from the reference sites (Microfiber, Exterior and Foam rollers, Trishul Scraper, Rustic Trowel) and check the "Best for" lines on the product pages (D-027).
-2. **Owner:** send white-background photos of the products, or allow the environment to reach image sites.
+2. **Owner:** send white-background photos of the products (one per product), or allow the environment to reach image sites (Project settings, Cloud environment, Network access). Photos from other shops' listings may be copyrighted, so own or licensed photos are safest.
 3. **Dev:** put a photo in every product card (replace the drawing with an `<img>`, D-018).
 
 ## Waiting on the business owner
