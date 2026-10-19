@@ -20,6 +20,8 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-011 | Work on `dev`, push straight to `main`; no pull requests | Accepted |
 | D-012 | No prices on the website; customers ask on WhatsApp | Accepted |
 | D-013 | No charges or fees mentioned anywhere on the website | Accepted |
+| D-014 | Contact order: Call first, then WhatsApp and email. Product enquiries use WhatsApp with a ready message | Accepted |
+| D-015 | Brand colour is provisional (#9a3b26), sampled from the card photo; confirm exact colours later | Proposed |
 
 When you add a decision, add a row here too.
 
@@ -128,3 +130,13 @@ When you add a decision, add a row here too.
 - **Decision:** The website never mentions delivery charges, fees, minimum orders or credit. Delivery in Surat can be mentioned, but with nothing about cost.
 - **Alternatives considered:** Saying "free delivery" or listing a charge.
 - **Consequences:** Cost questions are answered by phone or WhatsApp, like prices (D-012).
+
+## D-014
+Call first, then WhatsApp and email on every page. Product "Ask" buttons open WhatsApp with the product name filled in.
+
+**Why:** owner asked for Call to be the first option, and for enquiries not to depend on WhatsApp only.
+
+## D-015
+The site colour `--red` is #9a3b26, sampled from the card photo. Shop lighting can shift it, so take exact codes from the printed card or the owner before calling it final.
+
+**Why:** the card photo is the only colour source in the repo.
