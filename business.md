@@ -40,7 +40,7 @@ Exactly as listed on the back of the visiting card:
 Plus "all type of brush" (front of the card). The card lists the main items only; the full range, sizes and prices are still to confirm.
 
 ## Brands
-Shown on the back of the card (as logos). The website lists them as text only for now (D-007).
+Shown on the back of the card (as logos). The website lists them as text only (owner confirmed, D-007).
 
 | Brand | As on the card |
 |---|---|
@@ -77,7 +77,6 @@ Tracked in `backlog.md`. Don't put these on the website until the owner confirms
 - **Credit:** is credit given to regular customers? (Don't show it unless confirmed.)
 - **Full product range** beyond the card, with sizes.
 - **Photos** of the shop and products.
-- **Brand logos** on the website, or names only (D-007)?
 - **Language:** English only, or Gujarati too (D-010)?
 - **"॥ શ્રી ॥"** on the website, like on the card?
 - **Years in business**, GST number (if the owner wants it shown), email, social media.

@@ -20,7 +20,6 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P2 · Owner** Photos of the shop (outside board and inside) and of the products.
 - [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Prices stay off the website (customers ask on WhatsApp).
 - [ ] **P2 · Owner** Surat delivery charge (free or paid?). Is credit given to regular customers?
-- [ ] **P2 · Owner** Brand logos on the website, or names only (D-007)?
 - [ ] **P2 · Owner** Confirm the look follows the visiting card (D-008).
 - [ ] **P3 · Owner** English only, or Gujarati too (D-010)? Show "॥ શ્રી ॥" on the site?
 - [ ] **P3 · Owner** Years in business, email, social media, GST number (only if the owner wants them shown).
@@ -46,6 +45,7 @@ The few things to do next, in order. Keep this list short and current.
 
 ## Done
 - [x] **Dev** Project docs and rules: `README.md`, `business.md`, `decisions.md`, `backlog.md`, `progress.md`, `CLAUDE.md`, in the same format as Aara Culture and DK-Engineer.
+- [x] **Owner** Brands shown as text only, no logos (D-007).
 - [x] **Owner** Delivery in Surat; payment by UPI and cash.
 - [x] **Owner** Wholesale and retail both, no minimum order.
 - [x] **Owner** Customers: painters and contractors, wholesale shops, home owners, builders and companies.

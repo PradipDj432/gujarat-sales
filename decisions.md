@@ -13,7 +13,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-004 | All work on one `working` branch, merged to `main` by pull request | Replaced by D-011 |
 | D-005 | Enquiries go to +91 78629 37030 (phone and WhatsApp) | Accepted |
 | D-006 | Contact details and shop settings in one file, `js/config.js` | Proposed |
-| D-007 | Brand names as text only, no brand logos on the website | Proposed |
+| D-007 | Brand names as text only, no brand logos on the website | Accepted |
 | D-008 | The website's look follows the visiting card | Proposed |
 | D-009 | The visiting card is kept in `references/` as the source of business facts | Accepted |
 | D-010 | Website in English first; Gujarati later if the owner wants | Proposed |
@@ -74,7 +74,7 @@ When you add a decision, add a row here too.
 
 ## D-007 — Brand names as text only, no brand logos on the website
 - **Date:** 2026-10-19
-- **Status:** Proposed
+- **Status:** Accepted (owner confirmed on 2026-10-19)
 - **Context:** The card shows the logos of Norton (Saint-Gobain), 3M, CUMI, Stronger and Asian Paints. Brand logos are trademarks, and the DK-Engineer site made the same choice (DK D-015).
 - **Decision:** List the brand names as text ("Brands we stock: Norton, 3M, CUMI, Stronger, Asian Paints"). Add logos only if the owner confirms they may be used.
 - **Alternatives considered:** Show the logos, as on the card.
