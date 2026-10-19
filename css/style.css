@@ -500,3 +500,25 @@ address { font-style: normal; }
 .faq-item summary::after { content: "+"; position: absolute; right: 4px; top: 10px; color: var(--orange-deep); font-size: 1.75rem; font-weight: 400; }
 .faq-item[open] summary::after { content: "–"; }
 .faq-item p { margin: 0 0 16px; color: var(--muted); }
+
+
+/* ---------- Product facts and product pages ---------- */
+.product h3 a { color: inherit; text-decoration: none; }
+.product h3 a:hover { color: var(--orange-text); }
+.product-img { display: block; flex: 0 0 38%; align-self: flex-start; border-right: 1px solid var(--line); }
+.product-img .art { border-right: 0; }
+.product-facts { display: grid; gap: 4px; margin: 0; font-size: 0.9375rem; }
+.product-facts div { display: flex; flex-wrap: wrap; gap: 0 6px; }
+.product-facts dt { color: var(--charcoal); font-weight: 600; }
+.product-facts dt::after { content: ":"; }
+.product-facts dd { margin: 0; color: var(--muted); }
+.product-more { font-weight: 600; font-size: 0.9375rem; }
+.product-detail-art { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); }
+.product-detail-art .art svg { max-height: 340px; margin: 0 auto; }
+.detail-list { margin: 0 0 1.2em; border-top: 1px solid var(--line); }
+.detail-list div { display: grid; grid-template-columns: 110px 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.detail-list dt { color: var(--charcoal); font-weight: 600; }
+.detail-list dd { margin: 0; }
+@media (min-width: 720px) {
+  .product-img { flex: none; align-self: stretch; border-right: 0; border-bottom: 1px solid var(--line); }
+}

@@ -37,6 +37,7 @@ gujarat-sales/
 ├── progress.md       Status and work log
 ├── index.html        Home
 ├── products.html     Products: rollers, brushes, papers, other tools
+├── product-*.html    One page for each product ("View details"), same layout as each other
 ├── about.html        About us
 ├── contact.html      Contact, inquiry form and map
 ├── 404.html          Page not found

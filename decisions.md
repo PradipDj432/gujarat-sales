@@ -32,6 +32,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-023 | SEO set-up: unique titles and descriptions, canonical URL, share image, structured data, sitemap, robots, plain-English product pages | Accepted |
 | D-024 | Lighter, brighter orange (#ee6c14 main, #ff8a3d accent); replaces the colours in D-015 | Accepted |
 | D-025 | Big bands (hero, page headers, call-to-action) are light peach with dark text, not solid orange; logo and buttons keep their orange | Accepted |
+| D-026 | Product cards show "Best for" and "Sizes" and link to a page for each product (`product-<name>.html`). No brand line. Sizes say "All sizes available" | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -200,3 +201,8 @@ The orange is lighter and brighter: main bands and buttons #ee6c14 (hero gradien
 The hero, page headers and call-to-action band use a light peach background (#fff1e4 to #ffd2b0) with dark text. Logo, buttons, numbers and icons keep the orange from D-024. The footer stays dark.
 
 **Why:** the owner still found the orange too strong and asked for light orange as the background, with the logo colours unchanged. This also fixes the weak contrast of white text on orange.
+
+## D-026
+Each product card (style taken from aarohiindustries.in) shows the name, a plain line, "Best for", "Sizes" and a "View details" link. Each product has its own page with a short facts list, Call and WhatsApp buttons, a product structured-data entry (no price, no brand), and an entry in `sitemap.xml`.
+
+**Why:** the owner asked for product content like the Angel Painting Tools and Aarohi sites. The owner said not to mention brands on the cards and that all sizes are available, so there is no brand line and sizes say "All sizes available".
