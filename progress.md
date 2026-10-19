@@ -42,3 +42,4 @@ Where the project stands right now, and a dated log of what was done. Update thi
   - **Hours:** now "Mon – Sat: 8 AM – 8 PM · Sunday closed" everywhere.
   - **Content:** home page now says what the shop and website are, has a numbers strip, "four easy steps" and a questions section; About page has the story, 8+ years and 120+ customers (D-020); every product has a short plain-English description (to be checked by the owner).
   - **SEO (D-021, D-023):** header, footer, address and drawings written into the HTML; unique titles and descriptions; canonical links; share image; structured data; `sitemap.xml` and `robots.txt`.
+- Owner asked for a lighter orange. Main orange is now #ee6c14 with a brighter hero gradient, accent #ff8a3d; favicon, share image and browser theme colour updated (D-024). White text is a little less contrasty, so tell me if it should be lighter or darker.

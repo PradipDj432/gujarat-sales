@@ -21,7 +21,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-012 | No prices on the website; customers ask on WhatsApp | Accepted |
 | D-013 | No charges or fees mentioned anywhere on the website | Accepted |
 | D-014 | Contact order: Call first, then WhatsApp and email. Product enquiries use WhatsApp with a ready message | Accepted |
-| D-015 | White and orange theme, orange #f26a1b (buttons #d9560b); the owner asked for white and orange | Accepted |
+| D-015 | White and orange theme, orange #f26a1b (buttons #d9560b); the owner asked for white and orange | Replaced by D-024 |
 | D-016 | The site is for marketing and enquiries only: customers call to ask; no buying or ordering online | Accepted |
 | D-017 | Layout and style follow the DK ENGINEER'S site: orange hero band, numbered category tiles, feature cards, call-to-action band, phone action bar | Accepted |
 | D-018 | Product pictures are simple drawings (`data-art`) until real white-background photos are added | Proposed |
@@ -30,6 +30,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-021 | Header, footer, contact details and product drawings are written into each page's HTML so Google can read them | Accepted |
 | D-022 | Logo is a text wordmark like the visiting card (slab-serif GUJARAT, speed lines, SALES), not a "GS" square | Accepted |
 | D-023 | SEO set-up: unique titles and descriptions, canonical URL, share image, structured data, sitemap, robots, plain-English product pages | Accepted |
+| D-024 | Lighter, brighter orange (#ee6c14 main, #ff8a3d accent); replaces the colours in D-015 | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -189,3 +190,7 @@ SEO set-up: one `h1` per page, a unique title and description per page, a canoni
 
 **Why:** the owner asked for better SEO. If a custom domain is added, change `siteUrl` and the address in the canonical, share, sitemap and robots files. `robots.txt` is only read by Google when the site has its own domain.
 
+## D-024
+The orange is lighter and brighter: main bands and buttons #ee6c14 (hero gradient #f27a1f to #e4600c), accent #ff8a3d, text orange on white #c9540a. Set as CSS variables at the top of `css/style.css`. Replaces the colours in D-015 (white and orange stays).
+
+**Why:** the owner said the orange did not look good and asked for it a little lighter. White text on #ee6c14 is about 3.1:1, fine for big bold text but weaker for small text, so small text on orange bands stays white and bold, and buttons on orange are white with dark orange text.

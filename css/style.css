@@ -2,10 +2,10 @@
    White and orange theme (D-015). Same layout style as the DK ENGINEER'S site (D-017). */
 
 :root {
-  --orange: #f26a1b;
-  --orange-deep: #d9560b;
-  --orange-dark: #b34408;
-  --orange-text: #c24a06;
+  --orange: #ff8a3d;
+  --orange-deep: #ee6c14;
+  --orange-dark: #d65a0c;
+  --orange-text: #c9540a;
   --charcoal: #1c1c1c;
 
   --text: #1f1f1f;
@@ -134,10 +134,10 @@ p { margin: 0 0 1em; }
 .button-row { display: flex; flex-wrap: wrap; gap: 12px; }
 
 /* Buttons on an orange band: white button, white outline */
-.on-orange .button { background: var(--white); border-color: var(--white); color: var(--orange-dark); }
+.on-orange .button { background: var(--white); border-color: var(--white); color: #b34408; }
 .on-orange .button:hover { background: var(--charcoal); border-color: var(--charcoal); color: var(--white); }
 .on-orange .button-outline { background: transparent; border-color: var(--white); color: var(--white); }
-.on-orange .button-outline:hover { background: var(--white); border-color: var(--white); color: var(--orange-dark); }
+.on-orange .button-outline:hover { background: var(--white); border-color: var(--white); color: #b34408; }
 .on-orange .button-whatsapp { background: var(--wa); border-color: var(--wa); color: var(--white); }
 .on-orange .button-whatsapp:hover { background: var(--wa-dark); border-color: var(--wa-dark); color: var(--white); }
 
@@ -233,11 +233,11 @@ p { margin: 0 0 1em; }
 /* ---------- Orange bands: hero, page header, call to action ---------- */
 
 .on-orange {
-  background: linear-gradient(135deg, #e8590c 0%, var(--orange-deep) 60%, #c24a06 100%);
+  background: linear-gradient(135deg, #f27a1f 0%, var(--orange-deep) 55%, #e4600c 100%);
   color: var(--white);
 }
-.on-orange .lede, .on-orange p { color: #fff4ec; }
-.on-orange .eyebrow { color: #ffe2cc; }
+.on-orange .lede, .on-orange p { color: #fff; }
+.on-orange .eyebrow { color: #fff1e4; }
 
 .hero { padding: 40px 0 48px; }
 .hero-inner { display: grid; gap: 32px; align-items: center; }
@@ -316,7 +316,7 @@ p { margin: 0 0 1em; }
 .tile-body { padding: 10px 12px 14px; }
 .tile h3 { margin: 2px 0 4px; font-size: 1.1875rem; }
 .tile p { margin: 0; color: var(--muted); font-size: 0.9375rem; line-height: 1.4; }
-.number { display: block; color: var(--orange); font-family: var(--font-head); font-size: 1.125rem; font-weight: 700; letter-spacing: 0.1em; }
+.number { display: block; color: var(--orange-deep); font-family: var(--font-head); font-size: 1.125rem; font-weight: 700; letter-spacing: 0.1em; }
 
 @media (min-width: 720px) { .tile-body { padding: 16px 18px 20px; } .tile p { font-size: 1rem; } }
 @media (min-width: 1000px) { .tile-grid { grid-template-columns: repeat(4, 1fr); gap: 20px; } }
@@ -366,7 +366,7 @@ img.art { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; }
 
 .category-nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0 0; padding: 0; list-style: none; }
 .category-nav a { display: inline-block; padding: 8px 16px; border: 2px solid var(--white); border-radius: 999px; color: var(--white); font-family: var(--font-head); font-size: 1.0625rem; font-weight: 600; letter-spacing: 0.06em; text-decoration: none; text-transform: uppercase; }
-.category-nav a:hover { background: var(--white); color: var(--orange-dark); }
+.category-nav a:hover { background: var(--white); color: #b34408; }
 
 .product-grid { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 0; padding: 0; list-style: none; }
 .product { display: flex; flex-direction: row; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); }
