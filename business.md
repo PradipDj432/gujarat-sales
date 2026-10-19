@@ -10,10 +10,10 @@ Facts below come from the owner's visiting card (`references/visiting-card-front
 | **Name** | GUJARAT SALES |
 | **What we do** | Sell all types of brushes, paint rollers and painting tools |
 | **Card line** | "All Type Of Brush, Paints Roller & Tools" |
-| **Where** | **Punagam**, Surat - 395006, Gujarat (owner confirmed the area; the card's "Sarthana Jakatnaka" is old or wrong). Shop number and building still to confirm |
+| **Where** | 6, Sardar Nagar, Punagam, Surat - 395006, Gujarat (owner confirmed) |
 | **Customers** | Everyone: painters and contractors, shops (wholesale), home owners (retail), and builders and companies (owner confirmed) |
 | **Wholesale / retail** | Both, with no minimum order (owner confirmed) |
-| **Delivery** | Delivery in Surat (owner confirmed). Charge not confirmed |
+| **Delivery** | Delivery in Surat. No delivery charge or anything about charges is shown on the website (owner's rule, D-013) |
 | **Payment** | UPI and cash (owner confirmed) |
 | **Prices** | Not shown on the website. Customers call or WhatsApp to ask the price (owner confirmed) |
 | **Contact person** | Vivek Kapadiya |
@@ -62,19 +62,16 @@ Used as the starting point for the website's look (D-008).
 | Contact person | Vivek Kapadiya |
 | Phone | +91 78629 37030 |
 | WhatsApp | +91 78629 37030, used for the website's Call and WhatsApp buttons (owner confirmed; D-005) |
-| Days open | Monday to Saturday; Sunday closed (owner confirmed). Opening and closing times still to confirm |
-| Address | Punagam, Surat - 395006 (owner confirmed the area). Shop number, building, street and landmark to confirm. The card says "Sarthana Jakatnaka"; don't use it on the website |
-| Google Maps | The shop has a listing (owner confirmed). Link still to come |
-| Email | The shop has one (owner confirmed). Address still to come |
+| Opening hours | Monday to Saturday, 8 AM to 8 PM. Sunday closed (owner confirmed) |
+| Address | 6, Sardar Nagar, Punagam, Surat - 395006 (owner confirmed). The card says "Sarthana Jakatnaka"; don't use that on the website |
+| Google Maps | https://share.google/CEIrgwoDmdcpTSJ8T (owner's listing) |
+| Email | kapadiyavivek972@gmail.com |
 | Social media | None (owner didn't pick Instagram or Facebook) |
 
 ## Still to confirm
 Tracked in `backlog.md`. Don't put these on the website until the owner confirms them.
 
-- **Full address:** shop number, building, street and landmark in Punagam. Is there a Google Maps listing?
-- **Opening and closing times** (days are Monday to Saturday, Sunday closed).
-- **Delivery charge:** is Surat delivery free, or is there a charge or minimum order for it?
-- **Credit:** is credit given to regular customers? (Don't show it unless confirmed.)
+- **Credit:** none. The shop gives no credit (owner confirmed), so don't mention it on the website.
 - **Full product range** beyond the card, with sizes.
 - **Photos** of the shop and products.
-- **Years in business**, GST number (if the owner wants it shown), email, social media.
+- **Years in business**, GST number (if the owner wants it shown), social media.

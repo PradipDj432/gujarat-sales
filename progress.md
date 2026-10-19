@@ -7,19 +7,14 @@ Where the project stands right now, and a dated log of what was done. Update thi
 |---|---|
 | **Phase** | Set-up. Project docs and rules are written; no website code yet. |
 | **Live site** | Not live. Planned at `https://pradipdj432.github.io/gujarat-sales/` once GitHub Pages is on (D-003). |
-| **Branches** | Docs set-up goes straight to `main` (owner's OK), then `dev` and `working` are made from `main`. From then on: `working` → `dev` → `main` (D-011). |
-| **Blocked on** | Owner details: shop number and building, opening times, photos (see `backlog.md` → "Waiting on the business owner"). |
-| **Next step** | Owner: answer the questions in `backlog.md` → "Next up". Dev: share the first-version plan and get the owner's OK. |
+| **Branches** | `dev` (work) and `main` (live). Push straight to `main`, no pull requests (D-011). |
+| **Blocked on** | Nothing. Photos of the shop and products would help but aren't needed to start. |
+| **Next step** | Dev: share the first-version plan, build it and ship it to `main`. Owner: turn on GitHub Pages after the first push. |
 
 ## Where we are
 - **Business:** GUJARAT SALES, Surat - 395006. "All Type Of Brush, Paints Roller & Tools". Contact Vivek Kapadiya, +91 78629 37030. 10 products and 5 brands from the visiting card (details in `business.md`).
 - **Website:** not built yet. Plan: plain HTML/CSS/JS static site on GitHub Pages, enquiries by call and WhatsApp, look taken from the visiting card (D-001, D-002, D-008).
 - **Repo:** project docs (this file, `README.md`, `business.md`, `decisions.md`, `backlog.md`, `CLAUDE.md`) and the visiting card photos in `references/`.
-
-## Pull requests
-| PR | What | Merged |
-|---|---|---|
-| — | None yet | — |
 
 ## Log
 
@@ -32,3 +27,5 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Found that the card's address (Sarthana Jakatnaka, Surat - 395006) and the owner's message (Punagam) name different areas. The owner confirmed **Punagam**; the card's area name is not used. Shop number and building still to come.
 - The owner confirmed +91 78629 37030 for the website's Call and WhatsApp buttons (D-005 accepted). Shop is open Monday to Saturday, Sunday closed; times still to come.
 - The owner said customers are everyone: painters and contractors, wholesale shops, home owners (retail), and builders and companies. The shop sells wholesale and retail, with no minimum order. Delivery is in Surat; payment by UPI and cash. No prices on the website: customers ask on WhatsApp. Brands are shown as text only, no logos (D-007 accepted). Website in English first (D-010 accepted); "॥ શ્રી ॥" is not shown. The shop has a Google Maps listing and an email; both still to come. No social media.
+- Owner changed the branch rule to: work on `dev`, push straight to `main`, no pull requests (D-011), to ship quickly.
+- Owner confirmed: shop is at 6, Sardar Nagar, Punagam, Surat - 395006; open Monday to Saturday 8 AM to 8 PM, Sunday closed; Google Maps link https://share.google/CEIrgwoDmdcpTSJ8T; email kapadiyavivek972@gmail.com; no credit. No charges or anything about charges on the website (D-013).

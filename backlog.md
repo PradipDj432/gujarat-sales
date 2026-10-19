@@ -8,19 +8,13 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** send the shop number, building and landmark in Punagam, and the Google Maps link if there is one.
-2. **Owner:** send the opening and closing times (days: Mon–Sat, Sunday closed).
-3. **Owner:** send photos of the shop and the products (rollers, brushes, papers, tools).
-4. **Dev:** share the plan for the first version (pages, look, home page layout) and get the owner's OK before building.
+1. **Dev:** share the plan for the first version (pages, look, home page layout) and ship it to `main` quickly (D-011).
+2. **Owner:** send photos of the shop and the products.
 
 ## Waiting on the business owner
-- [ ] **P1 · Owner** Full shop address in Punagam: shop number, building, street, landmark.
-- [ ] **P1 · Owner** Google Maps link of the shop listing, and the shop email address.
-- [ ] **P1 · Owner** Opening and closing times (days are Mon–Sat, Sunday closed).
 - [ ] **P1 · Owner** Look at the first-version plan and say OK or what to change.
 - [ ] **P2 · Owner** Photos of the shop (outside board and inside) and of the products.
 - [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Prices stay off the website (customers ask on WhatsApp).
-- [ ] **P2 · Owner** Surat delivery charge (free or paid?). Is credit given to regular customers?
 - [ ] **P2 · Owner** Confirm the look follows the visiting card (D-008).
 - [ ] **P3 · Owner** Years in business, GST number (only if the owner wants them shown).
 - [ ] **P3 · Owner** Turn on GitHub Pages after the first merge (Settings → Pages → Deploy from a branch → `main` / `(root)`) (D-003).
@@ -50,8 +44,8 @@ The few things to do next, in order. Keep this list short and current.
 - [x] **Owner** Delivery in Surat; payment by UPI and cash.
 - [x] **Owner** Wholesale and retail both, no minimum order.
 - [x] **Owner** Customers: painters and contractors, wholesale shops, home owners, builders and companies.
-- [x] **Owner** Days open: Monday to Saturday, Sunday closed.
 - [x] **Owner** Website number: +91 78629 37030 for Call and WhatsApp (D-005).
 - [x] **Owner** Shop area: Punagam, Surat - 395006 (not Sarthana Jakatnaka, as on the card).
-- [x] **Owner** Branches: `working` → `dev` → `main` (D-011).
+- [x] **Owner** Branch rule: work on `dev`, push straight to `main`, no pull requests (D-011).
+- [x] **Owner** Address: 6, Sardar Nagar, Punagam, Surat - 395006. Hours Mon–Sat 8 AM–8 PM, Sunday closed. Google Maps link and email received. No credit. No charges shown on the website (D-013).
 - [x] **Dev** Visiting card photos saved upright in `references/` (D-009); card facts written into `business.md`.

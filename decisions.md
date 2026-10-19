@@ -17,8 +17,9 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-008 | The website's look follows the visiting card | Proposed |
 | D-009 | The visiting card is kept in `references/` as the source of business facts | Accepted |
 | D-010 | Website in English first; Gujarati later if the owner wants | Accepted |
-| D-011 | Three branches: `working` → `dev` → `main` | Accepted |
+| D-011 | Work on `dev`, push straight to `main`; no pull requests | Accepted |
 | D-012 | No prices on the website; customers ask on WhatsApp | Accepted |
+| D-013 | No charges or fees mentioned anywhere on the website | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -104,13 +105,13 @@ When you add a decision, add a row here too.
 - **Alternatives considered:** Gujarati only; both languages from the start (twice the text to keep up to date).
 - **Consequences:** Faster first version. Adding Gujarati later means a second set of pages or a language switch. The "॥ શ્રી ॥" from the card is not shown on the website (owner's choice).
 
-## D-011 — Three branches: `working` → `dev` → `main`
+## D-011 — Work on `dev`, push straight to `main`; no pull requests
 - **Date:** 2026-10-19
-- **Status:** Accepted
-- **Context:** The owner wants a `dev` branch as well as `working`, so work can be checked before it reaches the live site. Replaces D-004.
-- **Decision:** Build on `working`. Each feature goes by pull request from `working` into `dev`. When the owner says so, `dev` goes by pull request into `main`, which is live. After that, `dev` and `working` are fast-forwarded to `main`. Steps are in `CLAUDE.md`.
-- **Alternatives considered:** Only `working` → `main`, like Aara Culture and DK-Engineer (D-004); `dev` as a preview copy that is never merged.
-- **Consequences:** Two pull requests per release (`working` → `dev`, then `dev` → `main`), but `main` only changes when the owner is happy with `dev`. Several features can collect on `dev` and go live together.
+- **Status:** Accepted (replaces D-004; changed the same day from `working` → `dev` → `main`)
+- **Context:** The owner wants to ship quickly and doesn't want the extra steps.
+- **Decision:** Do the work on one branch, `dev` (the owner also calls it "working"), and push the finished work straight to `main`, which goes live. No pull requests and no separate `working` branch. Push to `main` only when the work is done and checked at phone and desktop width. Steps are in `CLAUDE.md`.
+- **Alternatives considered:** `working` → `dev` → `main` with a pull request each time (safer, but slower); committing on `main` with no `dev` branch.
+- **Consequences:** Fast. There is no review step, so check every change before pushing to `main`. Keep `dev` equal to `main` after each push.
 
 ## D-012 — No prices on the website; customers ask on WhatsApp
 - **Date:** 2026-10-19
@@ -119,3 +120,11 @@ When you add a decision, add a row here too.
 - **Decision:** Show no prices. Each product has an "Ask price on WhatsApp" button with a ready message, and the Call button is always near.
 - **Alternatives considered:** A price list on the site (goes out of date, needs a price list from the owner); prices for some items only.
 - **Consequences:** Nothing to keep up to date. Every price enquiry is a call or WhatsApp message. A price list can be added later with a new decision.
+
+## D-013 — No charges or fees mentioned anywhere on the website
+- **Date:** 2026-10-19
+- **Status:** Accepted
+- **Context:** The owner said not to add any charge, or anything related to a charge, to the website.
+- **Decision:** The website never mentions delivery charges, fees, minimum orders or credit. Delivery in Surat can be mentioned, but with nothing about cost.
+- **Alternatives considered:** Saying "free delivery" or listing a charge.
+- **Consequences:** Cost questions are answered by phone or WhatsApp, like prices (D-012).

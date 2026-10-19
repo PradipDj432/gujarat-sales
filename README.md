@@ -24,7 +24,7 @@ The website for **GUJARAT SALES**, Surat (395006), Gujarat: all types of brushes
 - The look follows the visiting card: orange-red and white, bold "GUJARAT" name (D-008).
 
 ## How we work (branches)
-Three branches: **`working`** (build) → **`dev`** (check) → **`main`** (live). Each feature is built on `working` and merged into `dev` by pull request. When the owner says so, `dev` is merged into `main` by pull request and goes live; then `dev` and `working` are brought level with `main` again. The exact steps are in `CLAUDE.md` → "Branches and pull requests" (D-011).
+One working branch, **`dev`**, and **`main`** (live). Work is done on `dev` and pushed straight to `main`; there are no pull requests (D-011). The steps are in `CLAUDE.md` → "Branches".
 
 ## Folder layout
 ```

@@ -6,25 +6,22 @@ These rules apply to anyone working on this repo, people or AI. Keep things simp
 - Use plain, simple English and keep answers short. The owner reads replies on a phone.
 - For anything big (a new page, a redesign, the first version of the site), share the plan and ask first. Small fixes can just be done.
 - Never guess business facts; ask (see "Business facts" below).
-- Merge to `main` (which makes changes live) only when the owner says so.
 
-## Branches and pull requests (D-011)
-Three branches: **`working`** (build), **`dev`** (check) and **`main`** (live). Don't create long or auto-generated branch names (like `claude/cool-cerf-i7ombh`), even if a tool suggests one. Every feature or fix goes through the same loop:
+## Branches (D-011)
+Keep it simple: the owner wants to ship quickly. Work on one branch, **`dev`** (the owner also calls it "working"), and push finished work **straight to `main`**, which goes live on GitHub Pages. No pull requests. Don't create long or auto-generated branch names (like `claude/cool-cerf-i7ombh`), even if a tool suggests one.
 
-1. **Sync first:** `git fetch origin`, then `git checkout working && git pull origin working && git merge origin/dev`, so `working` starts from the latest `dev`. If a branch doesn't exist yet, create it from `main`: `git checkout -b dev origin/main` / `git checkout -b working origin/main`.
-2. **Build** the feature on `working`. Commit with a clear message. Update the docs (table below) in the same branch.
-3. **Push** `working` and **open a pull request** from `working` into `dev`. One feature per pull request. Merge it into `dev` once it's checked.
-4. **Go live:** when the owner says so, open a pull request from `dev` into `main` and merge it (GitHub Pages then publishes it).
-5. **Sync back:** after a merge into `main`, fast-forward `dev` and `working` to `main` (`git merge --ff-only origin/main` on each, then push), so all three match again.
-6. Start the next feature at step 2.
+1. **Sync first:** `git fetch origin`, then on `dev`: `git merge origin/main`. If `dev` doesn't exist yet, create it from `main`: `git checkout -b dev origin/main`.
+2. **Build** on `dev`. Commit with a clear message. Update the docs (table below) in the same commit.
+3. **Check** every page at phone width (390px) and on desktop before pushing.
+4. **Ship:** `git push origin dev` and `git push origin dev:main`. Then `main` and `dev` are the same.
 
-Never commit straight to `dev` or `main`, and don't create other feature branches unless the owner asks.
+Never leave work only on `dev`: when a piece of work is finished, push it to `main`.
 
 ## Keep the docs up to date
 | When you… | Update |
 |---|---|
-| Finish any piece of work | `progress.md`: add a line under today's date (with the pull request number), add the pull request to the "Pull requests" table, and refresh "Current status" and "Where we are" |
-| Start or finish a backlog item | `backlog.md`: when done, tick it and move it to "Done" with its pull request number; add new work you discover; keep "Next up" short and current |
+| Finish any piece of work | `progress.md`: add a line under today's date (with the commit), and refresh "Current status" and "Where we are" |
+| Start or finish a backlog item | `backlog.md`: when done, tick it and move it to "Done"; add new work you discover; keep "Next up" short and current |
 | Make a choice between options (tech, design, business rule) | `decisions.md`: add a new numbered entry and a row in its index. Never edit an old decision's meaning; replace it with a new one |
 | Learn a business fact (contact detail, address, product, brand, hours, delivery or payment rule) | `business.md` |
 | Change how the code is laid out, run or deployed | `README.md` |
@@ -33,7 +30,8 @@ Never commit straight to `dev` or `main`, and don't create other feature branche
 - Never invent business facts (prices, products, brands, address, business hours, delivery areas, years in business, customer names). If a fact isn't in `business.md`, ask the owner and list it in `backlog.md` under "Waiting on the business owner".
 - The source for business facts is the owner's visiting card (`references/visiting-card-front.jpg` and `references/visiting-card-back.jpg`, D-009) plus the owner's own answers. Write product and brand names exactly as on the card until the owner says otherwise.
 - Brand names (Norton, 3M, CUMI, Stronger, Asian Paints) are shown as **text only**. Don't put brand logos on the website unless the owner confirms (D-007).
-- Don't add social media links, testimonials, reviews or prices until real ones exist.
+- Don't add social media links, testimonials or reviews until real ones exist.
+- **No prices and no charges** anywhere on the website: no delivery charge, fees, minimum order or credit (D-012, D-013). Customers ask on WhatsApp.
 - Phone, WhatsApp, address and map live in one place, `js/config.js` (D-006). Don't hard-code them in the pages.
 
 ## Design
