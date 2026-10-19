@@ -24,8 +24,8 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-015 | White and orange theme, orange #f26a1b (buttons #d9560b); the owner asked for white and orange | Accepted |
 | D-016 | The site is for marketing and enquiries only: customers call to ask; no buying or ordering online | Accepted |
 | D-017 | Layout and style follow the DK ENGINEER'S site: orange hero band, numbered category tiles, feature cards, call-to-action band, phone action bar | Accepted |
-| D-019 | One fixed Google Maps link (the listing ID link), not the short Share links | Accepted |
 | D-018 | Product pictures are simple drawings (`data-art`) until real white-background photos are added | Proposed |
+| D-019 | One fixed Google Maps link (the listing ID link), not the short Share links | Accepted |
 
 When you add a decision, add a row here too.
 
