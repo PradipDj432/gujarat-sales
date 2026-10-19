@@ -49,4 +49,4 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Owner asked to check product names against the internet. Checked all of them: added Flat Wall Brush, Roller Handle, Paint Tray and Extension Pole (new group "Roller accessories"), renamed two tools; 22 products in 5 groups (D-028).
 - Owner said buttons are too big and the orange and green too strong. All buttons are smaller with less padding, and orange and green are lighter, on every page (D-029).
 - Owner asked for real white-background photos for every product (hero unchanged). The build environment still cannot download images (network policy blocks image sites), so no photos were added. Prepared `images/products/` so a photo named `<product id>.jpg` replaces the drawing on the product card and its page (D-018).
-- Added free-licence white-background photos for 10 of 22 products (`images/products/`, sources in `CREDITS.md`). The other 12 still show drawings until the owner sends photos.
+- Owner did not like the photos, so the drawings are back on every product (photos can be restored from commit 490f660).
