@@ -40,17 +40,21 @@ gujarat-sales/
 ├── about.html        About us
 ├── contact.html      Contact, inquiry form and map
 ├── 404.html          Page not found
+├── sitemap.xml       List of pages for Google
+├── robots.txt        Tells Google where the sitemap is
 ├── css/style.css     All styles (colours and fonts at the top)
 ├── js/
-│   ├── config.js     Phone, WhatsApp, email, address, hours, map (edit here only)
-│   ├── common.js     Header, footer, phone action bar, product drawings
+│   ├── config.js     Master copy of phone, WhatsApp, email, address, hours, map, years, site address
+│   ├── common.js     Phone menu button
 │   └── contact.js    Turns the inquiry form into a WhatsApp or email message
-├── images/           Favicon (add product photos here)
+├── images/           Favicon, share image (og-image.png); add product photos here
 └── references/
     ├── visiting-card-front.jpg   Front: name, card line, contact person and number
     └── visiting-card-back.jpg    Back: product list, brands, address
 ```
-Product photos: replace a card's `<div class="art" data-art="...">` with `<img class="art" src="images/name.jpg" alt="...">` (D-018).
+Product photos: replace a card's `<div class="art">...drawing...</div>` with `<img class="art" src="images/name.jpg" alt="..." width="1000" height="750" loading="lazy">` (D-018).
+
+Changing a contact detail: the header, footer, address, phone and email are written into each page's HTML (D-021). Update `js/config.js` first, then search the pages for the old value and change it everywhere (`grep -rn "old value" *.html`). Also check `sitemap.xml` and the `siteUrl` if the web address changes (D-023).
 
 ## Run it on your computer
 Once the site exists, start a small local server in the project folder (some browsers block scripts on pages opened straight from a file):

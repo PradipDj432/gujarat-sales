@@ -62,7 +62,9 @@ Used as the starting point for the website's look (D-008).
 | Contact person | Vivek Kapadiya |
 | Phone | +91 78629 37030 |
 | WhatsApp | +91 78629 37030, used for the website's Call and WhatsApp buttons (owner confirmed; D-005) |
-| Opening hours | Monday to Saturday, 8 AM to 8 PM. Sunday closed (owner confirmed) |
+| Opening hours | Mon – Sat: 8 AM – 8 PM · Sunday closed (owner confirmed; shown on the website in this short wording) |
+| In business since | August 2018: 8+ years (owner confirmed) |
+| Customers | 120+ customers (owner confirmed) |
 | Address | Sardar Nagar-1, Kalyan Nagar, Punagam, Varachha, Surat - 395006, Gujarat (owner confirmed as the final address, used everywhere on the website; the earlier "Shop No. 6" and pin code 395011 are not used). The card says "Sarthana Jakatnaka"; don't use that on the website |
 | Google Maps | https://www.google.com/maps?cid=7343727991767936096 (fixed link to the GUJARAT SALES listing, built from the listing ID in the owner's embed code; the short links from Google's Share button change every time and are not used) |
 | Email | kapadiyavivek972@gmail.com |
@@ -74,4 +76,5 @@ Tracked in `backlog.md`. Don't put these on the website until the owner confirms
 - **Credit:** none. The shop gives no credit (owner confirmed), so don't mention it on the website.
 - **Full product range** beyond the card, with sizes.
 - **Photos** of the shop and products.
-- **Years in business**, GST number (if the owner wants it shown), social media.
+- GST number (if the owner wants it shown), social media.
+- **Product details:** what Rustic Towel and Lapi Patra are, what PU Brush, Deluxe and Jyoti brushes are for, and what Brown Paper is. The website's product descriptions were written from general knowledge and need the owner's check (see `backlog.md`).

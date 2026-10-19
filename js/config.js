@@ -22,7 +22,16 @@ const BUSINESS = {
     state: "Gujarat",
   },
 
-  hours: "Monday to Saturday, 8 AM to 8 PM. Sunday closed",
+  hours: "Mon – Sat: 8 AM – 8 PM · Sunday closed",
+
+  // Facts from the owner (D-020).
+  since: "August 2018",
+  years: "8+",
+  customers: "120+",
+
+  // The website address (GitHub Pages for now). Change it here and in the pages if a custom domain is added.
+  siteUrl: "https://pradipdj432.github.io/gujarat-sales/",
+  geo: { latitude: 21.203645, longitude: 72.876644 },
 
   // One fixed link to the shop's Google Maps listing (built from the listing's own ID, so it never changes).
   // The embed below is the map shown on the contact page.

@@ -8,15 +8,18 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Dev:** add a white-background photo to every product card (replace each `data-art` drawing in `index.html` and `products.html` with an `<img>`, D-018).
-2. **Owner:** send photos of the shop and the products, or allow the environment to reach image sites.
+1. **Owner:** check the product descriptions on `products.html` (written from general knowledge) and tell us what Rustic Towel and Lapi Patra are.
+2. **Owner:** send white-background photos of the products, or allow the environment to reach image sites.
+3. **Dev:** put a photo in every product card (replace the drawing with an `<img>`, D-018).
 
 ## Waiting on the business owner
 - [ ] **P1 · Owner** Look at the first-version plan and say OK or what to change.
 - [ ] **P2 · Owner** Photos of the shop (outside board and inside) and of the products.
 - [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Prices stay off the website (customers ask on WhatsApp).
 - [ ] **P2 · Owner** Confirm the look follows the visiting card (D-008).
-- [ ] **P3 · Owner** Years in business, GST number (only if the owner wants them shown).
+- [ ] **P1 · Owner** Check the product descriptions on `products.html`. Unsure: PU Brush (what PU means), Deluxe and Jyoti brushes (brand names or ranges?), Brown Paper (sanding paper?), Rustic Towel and Lapi Patra (what they are and what they are used for), and how the yellow line and brown line rollers differ.
+- [ ] **P3 · Owner** GST number (only if the owner wants it shown).
+- [ ] **P2 · Owner** After GitHub Pages is on: add the site in Google Search Console and submit `sitemap.xml` (D-023).
 - [ ] **P3 · Owner** Turn on GitHub Pages after the first merge (Settings → Pages → Deploy from a branch → `main` / `(root)`) (D-003).
 - [ ] **P3 · Owner** Decide on a custom domain (for example `gujaratsales.in`).
 - [ ] **P3 · Owner** Google Business Profile: does the shop have one? Add the website link to it once live.

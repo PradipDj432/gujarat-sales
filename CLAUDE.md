@@ -32,16 +32,16 @@ Never leave work only on `dev`: when a piece of work is finished, push it to `ma
 - Brand names (Norton, 3M, CUMI, Stronger, Asian Paints) are shown as **text only**. Don't put brand logos on the website unless the owner confirms (D-007).
 - Don't add social media links, testimonials or reviews until real ones exist.
 - **No prices and no charges** anywhere on the website: no delivery charge, fees, minimum order or credit (D-012, D-013). Customers ask on WhatsApp.
-- Phone, WhatsApp, address and map live in one place, `js/config.js` (D-006). Don't hard-code them in the pages.
+- Phone, WhatsApp, email, address, hours and map: `js/config.js` is the master copy (D-006), and the same details are written into each page's HTML so Google can read them (D-021). When one changes, update `js/config.js` and then search every page for the old value.
 
 ## Design
 - White and orange (D-015), with the same layout style as the DK ENGINEER'S site (D-017). It is a marketing site: **Call is always the first button**, then WhatsApp, then Email (D-014, D-016). Set colours and fonts once, as CSS variables at the top of `css/style.css`; don't add one-off colours or sizes.
-- Product pictures should be white-background photos (D-018). Until they exist, the drawings from `js/common.js` are used.
+- The logo is the text wordmark (D-022). Product pictures should be white-background photos (D-018). Until they exist, the drawings from `js/common.js` are used.
 
 ## Code
 - Plain HTML, CSS and JavaScript only. No framework, no build step, no `npm` (D-002).
 - The site lives in the repo root and is served by GitHub Pages from `main` (D-003).
 - Mobile first: most visitors are painters and contractors on phones. Check every page at phone width (390px) with no horizontal scrolling.
 - Page text (products, about) is plain HTML in each page, so the owner can edit it on GitHub and Google can read it.
-- Text from `js/config.js` goes through `escapeHtml()` before it's put into the page.
+- Keep the SEO basics on every page (D-023): one `h1`, a unique title and description, a canonical link, and an entry in `sitemap.xml`.
 - Photos: JPEG, about 1000px wide, under ~250 KB each, so the site stays fast on mobile data.

@@ -5,7 +5,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Marketing-style site (DK-Engineer layout) pushed to `main`; waiting on product photos. |
+| **Phase** | Marketing site with detailed product text and SEO set-up pushed to `main`; waiting on product photos and the owner's check of product text. |
 | **Live site** | Not live. Planned at `https://pradipdj432.github.io/gujarat-sales/` once GitHub Pages is on (D-003). |
 | **Branches** | `dev` (work) and `main` (live). Push straight to `main`, no pull requests (D-011). |
 | **Blocked on** | Nothing. Photos of the shop and products would help but aren't needed to start. |
@@ -13,7 +13,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 
 ## Where we are
 - **Business:** GUJARAT SALES, Surat - 395006. "All Type Of Brush, Paints Roller & Tools". Contact Vivek Kapadiya, +91 78629 37030. 10 products and 5 brands from the visiting card (details in `business.md`).
-- **Website:** built (Home, Products, About, Contact, 404) in white and orange with the DK-Engineer layout (D-017). Call first, then WhatsApp and email (D-014, D-016). Product cards show drawings until photos are added (D-018).
+- **Website:** built (Home, Products, About, Contact, 404) in white and orange with the DK-Engineer layout (D-017); new wordmark logo (D-022); 8+ years and 120+ customers shown (D-020); SEO set-up (D-021, D-023). Call first, then WhatsApp and email (D-014, D-016). Product cards show drawings until photos are added (D-018).
 - **Repo:** project docs (this file, `README.md`, `business.md`, `decisions.md`, `backlog.md`, `CLAUDE.md`) and the visiting card photos in `references/`.
 
 ## Log
@@ -37,3 +37,8 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Owner gave the final address, to be used everywhere: Sardar Nagar-1, Kalyan Nagar, Punagam, Varachha, Surat, Gujarat 395006. Updated `js/config.js` (footer, contact page, map) and the contact page text. Pin code is back to 395006; "Shop No. 6" is no longer shown.
 - Owner gave the Google Maps embed for the GUJARAT SALES listing and a short link (https://maps.app.goo.gl/DhGY7ZWzsg6Wyihf8). The contact page map now shows the real listing pin and the "Open in Google Maps" buttons use the short link (`js/config.js`).
 - Owner asked for one static map link because Google's Share button gives a different short link every time. Set the fixed listing link `https://www.google.com/maps?cid=7343727991767936096` in `js/config.js` (D-019); every "Open in Google Maps" button uses it.
+- Owner asked for: a new logo, other wording for the opening days, "8+ years (since August 2018)" and "120+ customers" on the About page, more plain-English detail for every product, and better SEO.
+  - **Logo:** replaced the "GS" square with a text wordmark like the card (D-022); new browser icon (paint roller).
+  - **Hours:** now "Mon – Sat: 8 AM – 8 PM · Sunday closed" everywhere.
+  - **Content:** home page now says what the shop and website are, has a numbers strip, "four easy steps" and a questions section; About page has the story, 8+ years and 120+ customers (D-020); every product has a short plain-English description (to be checked by the owner).
+  - **SEO (D-021, D-023):** header, footer, address and drawings written into the HTML; unique titles and descriptions; canonical links; share image; structured data; `sitemap.xml` and `robots.txt`.

@@ -26,6 +26,10 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-017 | Layout and style follow the DK ENGINEER'S site: orange hero band, numbered category tiles, feature cards, call-to-action band, phone action bar | Accepted |
 | D-018 | Product pictures are simple drawings (`data-art`) until real white-background photos are added | Proposed |
 | D-019 | One fixed Google Maps link (the listing ID link), not the short Share links | Accepted |
+| D-020 | The site says 8+ years (since August 2018) and 120+ customers | Accepted |
+| D-021 | Header, footer, contact details and product drawings are written into each page's HTML so Google can read them | Accepted |
+| D-022 | Logo is a text wordmark like the visiting card (slab-serif GUJARAT, speed lines, SALES), not a "GS" square | Accepted |
+| D-023 | SEO set-up: unique titles and descriptions, canonical URL, share image, structured data, sitemap, robots, plain-English product pages | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -164,4 +168,24 @@ Until real photos exist, each product shows a drawing made in `js/common.js` (`d
 The website uses one fixed Google Maps link, `https://www.google.com/maps?cid=7343727991767936096`, set once in `js/config.js`. The short links from Google's Share button (`maps.app.goo.gl/...`) are a new link every time, so they are not used.
 
 **Why:** the owner wanted one static link. The number is the listing's own ID, taken from the owner's embed code, so it does not change.
+
+## D-020
+The website says the shop has been in business for 8+ years, since August 2018, and has 120+ customers. These numbers come from the owner and are shown on the home page, the About page and in the structured data (`js/config.js`: `since`, `years`, `customers`).
+
+**Why:** the owner asked for them on the About page and for customers to see straight away what the shop is.
+
+## D-021
+The header, footer, address, phone, email, hours and the product drawings are written directly into each page's HTML. `js/common.js` only adds the phone menu button. `js/config.js` stays the master copy of the details and is used by the inquiry form.
+
+**Why:** Google and share previews read the HTML first, and pages built by JavaScript can be missed. Cost: when a contact detail changes, update `js/config.js` and then every page that shows it (search the pages for the old value).
+
+## D-022
+The logo is a text wordmark that follows the visiting card: slab-serif "GUJARAT" in orange, "SALES" in spaced capitals with three speed lines, made with HTML and CSS (no image). The browser icon is a white paint roller on orange.
+
+**Why:** the owner did not like the first "GS" square logo, and the card's own style is the safest base.
+
+## D-023
+SEO set-up: one `h1` per page, a unique title and description per page, a canonical link, share-image and social tags, structured data (HardwareStore, FAQ, breadcrumbs, product list), `sitemap.xml`, `robots.txt`, a share image `images/og-image.png`, and plain-English product text. The web address used in these is the GitHub Pages address `https://pradipdj432.github.io/gujarat-sales/` (`js/config.js`: `siteUrl`).
+
+**Why:** the owner asked for better SEO. If a custom domain is added, change `siteUrl` and the address in the canonical, share, sitemap and robots files. `robots.txt` is only read by Google when the site has its own domain.
 
