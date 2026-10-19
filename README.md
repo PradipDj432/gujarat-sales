@@ -36,7 +36,7 @@ gujarat-sales/
 ├── backlog.md        To-do list
 ├── progress.md       Status and work log
 ├── index.html        Home
-├── products.html     Products: rollers, brushes, papers, other tools
+├── products.html     Products: rollers, brushes, sanding papers, hand tools and spray paint
 ├── product-*.html    One page for each product ("View details"), same layout as each other
 ├── about.html        About us
 ├── contact.html      Contact, inquiry form and map

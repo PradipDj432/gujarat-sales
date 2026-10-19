@@ -33,6 +33,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-024 | Lighter, brighter orange (#ee6c14 main, #ff8a3d accent); replaces the colours in D-015 | Accepted |
 | D-025 | Big bands (hero, page headers, call-to-action) are light peach with dark text, not solid orange; logo and buttons keep their orange | Accepted |
 | D-026 | Product cards show "Best for" and "Sizes" and link to a page for each product (`product-<name>.html`). No brand line. Sizes say "All sizes available" | Accepted |
+| D-027 | Product range reworked from the two reference sites and web search: 18 products in 4 groups, "Which one do I need?" guide, longer product pages | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -206,3 +207,8 @@ The hero, page headers and call-to-action band use a light peach background (#ff
 Each product card (style taken from aarohiindustries.in) shows the name, a plain line, "Best for", "Sizes" and a "View details" link. Each product has its own page with a short facts list, Call and WhatsApp buttons, a product structured-data entry (no price, no brand), and an entry in `sitemap.xml`.
 
 **Why:** the owner asked for product content like the Angel Painting Tools and Aarohi sites. The owner said not to mention brands on the cards and that all sizes are available, so there is no brand line and sizes say "All sizes available".
+
+## D-027
+The product list was reworked using aarohiindustries.in, general web search (IndiaMART and similar listings) and the owner's items: rollers (yellow line, brown line, green thread, microfiber, exterior, epoxy, texture, foam), brushes (PU, Deluxe, Jyoti), sanding papers (water, brown, Norton and Stronger), and hand tools and spray paint (rustic trowel, lapi patra, trishul scraper, spray paint). The Products page has a "Which one do I need?" guide, and each product page says what it is, what it is best for, what it works with, a tip, and how to get it. "Rustic Towel" is now "Rustic Trowel" and "Yellow Texture Roller" has the page name `texture-roller`.
+
+**Why:** the owner said the first list may be wrong and the two reference sites are the right standard. Items not on the visiting card are marked in `business.md` for the owner to confirm; remove any the shop does not sell.

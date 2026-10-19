@@ -78,3 +78,6 @@ Tracked in `backlog.md`. Don't put these on the website until the owner confirms
 - **Photos** of the shop and products.
 - GST number (if the owner wants it shown), social media.
 - **Product details:** what Rustic Towel and Lapi Patra are, what PU Brush, Deluxe and Jyoti brushes are for, and what Brown Paper is. The website's product descriptions were written from general knowledge and need the owner's check (see `backlog.md`).
+
+## Product range on the website (D-027)
+The card lists 10 items, but the owner said the first list may be wrong and asked us to follow the Aarohi Industries and Angel Painting Tools sites. The website now shows 18 products in 4 groups. **Taken from the card/owner:** Yellow Line, Brown Line, Green Thread, Epoxy and Yellow Texture rollers; PU, Deluxe and Jyoti brushes; Water Paper, Brown Paper, Norton and Stronger papers; Lapi Patra; Spray Paint. **Added from the reference sites, owner to confirm the shop sells them:** Microfiber, Exterior and Foam rollers; Trishul Scraper; Rustic Trowel (the card says "Rustic Towel"; a trowel is the usual tool). Sizes say "All sizes available" (owner, 2026-10-19). No brand line on product cards (owner).

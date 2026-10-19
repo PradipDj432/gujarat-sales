@@ -8,7 +8,7 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** check the product descriptions on `products.html` (written from general knowledge) and tell us what Rustic Towel and Lapi Patra are.
+1. **Owner:** confirm the shop sells the products added from the reference sites (Microfiber, Exterior and Foam rollers, Trishul Scraper, Rustic Trowel) and check the "Best for" lines on the product pages (D-027).
 2. **Owner:** send white-background photos of the products, or allow the environment to reach image sites.
 3. **Dev:** put a photo in every product card (replace the drawing with an `<img>`, D-018).
 
@@ -17,7 +17,7 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P2 · Owner** Photos of the shop (outside board and inside) and of the products.
 - [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Prices stay off the website (customers ask on WhatsApp).
 - [ ] **P2 · Owner** Confirm the look follows the visiting card (D-008).
-- [ ] **P1 · Owner** Check the product descriptions on `products.html`. Unsure: PU Brush (what PU means), Deluxe and Jyoti brushes (brand names or ranges?), Brown Paper (sanding paper?), Rustic Towel and Lapi Patra (what they are and what they are used for), and how the yellow line and brown line rollers differ.
+- [ ] **P1 · Owner** Check the product pages (`products.html`, `product-*.html`). Added from the reference sites, to confirm: Microfiber, Exterior and Foam rollers, Trishul Scraper, Rustic Trowel (the card says Rustic Towel). Unsure: PU Brush (what PU means), Deluxe and Jyoti brushes (brand names or ranges?), Brown Paper (sanding paper?), Rustic Towel and Lapi Patra (what they are and what they are used for), and how the yellow line and brown line rollers differ.
 - [ ] **P3 · Owner** GST number (only if the owner wants it shown).
 - [ ] **P2 · Owner** After GitHub Pages is on: add the site in Google Search Console and submit `sitemap.xml` (D-023).
 - [ ] **P3 · Owner** Turn on GitHub Pages after the first merge (Settings → Pages → Deploy from a branch → `main` / `(root)`) (D-003).
