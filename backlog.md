@@ -8,19 +8,18 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Owner:** confirm the full shop address (Sarthana Jakatnaka or Punagam, shop number, building, landmark) and send the Google Maps link if there is one.
-2. **Owner:** confirm +91 78629 37030 is the number for website calls and WhatsApp (D-005), and send business hours.
+1. **Owner:** send the shop number, building and landmark in Punagam, and the Google Maps link if there is one.
+2. **Owner:** send the opening and closing times (days: Mon–Sat, Sunday closed).
 3. **Owner:** send photos of the shop and the products (rollers, brushes, papers, tools).
 4. **Dev:** share the plan for the first version (pages, look, home page layout) and get the owner's OK before building.
 
 ## Waiting on the business owner
-- [ ] **P1 · Owner** Full shop address: shop number, building, street, landmark. Card says Sarthana Jakatnaka; owner said Punagam. Google Maps link.
-- [ ] **P1 · Owner** Confirm +91 78629 37030 for calls and WhatsApp on the website (D-005). Any second number?
-- [ ] **P1 · Owner** Business hours and days open.
+- [ ] **P1 · Owner** Full shop address in Punagam: shop number, building, street, landmark. Google Maps link.
+- [ ] **P1 · Owner** Opening and closing times (days are Mon–Sat, Sunday closed).
 - [ ] **P1 · Owner** Look at the first-version plan and say OK or what to change.
 - [ ] **P2 · Owner** Photos of the shop (outside board and inside) and of the products.
 - [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Show prices on the website or not?
-- [ ] **P2 · Owner** Who buys (painters, contractors, shops, home owners) and wholesale / retail / both; minimum order.
+- [ ] **P2 · Owner** Minimum order for wholesale (customers are everyone: painters, contractors, shops, home owners, builders).
 - [ ] **P2 · Owner** Delivery in Surat or in-shop only; any charge. Payment methods (cash, UPI, credit).
 - [ ] **P2 · Owner** Brand logos on the website, or names only (D-007)?
 - [ ] **P2 · Owner** Confirm the look follows the visiting card (D-008).
@@ -48,5 +47,9 @@ The few things to do next, in order. Keep this list short and current.
 
 ## Done
 - [x] **Dev** Project docs and rules: `README.md`, `business.md`, `decisions.md`, `backlog.md`, `progress.md`, `CLAUDE.md`, in the same format as Aara Culture and DK-Engineer.
+- [x] **Owner** Customers: painters and contractors, wholesale shops, home owners, builders and companies.
+- [x] **Owner** Days open: Monday to Saturday, Sunday closed.
+- [x] **Owner** Website number: +91 78629 37030 for Call and WhatsApp (D-005).
+- [x] **Owner** Shop area: Punagam, Surat - 395006 (not Sarthana Jakatnaka, as on the card).
 - [x] **Owner** Branches: `working` → `dev` → `main` (D-011).
 - [x] **Dev** Visiting card photos saved upright in `references/` (D-009); card facts written into `business.md`.

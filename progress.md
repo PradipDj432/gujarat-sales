@@ -8,7 +8,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 | **Phase** | Set-up. Project docs and rules are written; no website code yet. |
 | **Live site** | Not live. Planned at `https://pradipdj432.github.io/gujarat-sales/` once GitHub Pages is on (D-003). |
 | **Branches** | Docs set-up goes straight to `main` (owner's OK), then `dev` and `working` are made from `main`. From then on: `working` → `dev` → `main` (D-011). |
-| **Blocked on** | Owner details: full address, hours, confirm the WhatsApp number, photos (see `backlog.md` → "Waiting on the business owner"). |
+| **Blocked on** | Owner details: shop number and building, opening times, photos (see `backlog.md` → "Waiting on the business owner"). |
 | **Next step** | Owner: answer the questions in `backlog.md` → "Next up". Dev: share the first-version plan and get the owner's OK. |
 
 ## Where we are
@@ -29,4 +29,6 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Saved the card photos the right way up in `references/` (D-009).
 - Wrote the project docs: `README.md`, `business.md` (all facts from the card, plus a "Still to confirm" list), `decisions.md` (D-001 to D-011), `backlog.md`, `progress.md`, `CLAUDE.md`.
 - The owner chose three branches: `working` → `dev` → `main` (D-011, replaces D-004). This first set-up goes straight to `main` with the owner's OK; `dev` and `working` are made from it.
-- Found that the card's address (Sarthana Jakatnaka, Surat - 395006) and the owner's message (Punagam) name different areas. Kept both and asked the owner for the full address.
+- Found that the card's address (Sarthana Jakatnaka, Surat - 395006) and the owner's message (Punagam) name different areas. The owner confirmed **Punagam**; the card's area name is not used. Shop number and building still to come.
+- The owner confirmed +91 78629 37030 for the website's Call and WhatsApp buttons (D-005 accepted). Shop is open Monday to Saturday, Sunday closed; times still to come.
+- The owner said customers are everyone: painters and contractors, wholesale shops, home owners (retail), and builders and companies.

@@ -10,7 +10,8 @@ Facts below come from the owner's visiting card (`references/visiting-card-front
 | **Name** | GUJARAT SALES |
 | **What we do** | Sell all types of brushes, paint rollers and painting tools |
 | **Card line** | "All Type Of Brush, Paints Roller & Tools" |
-| **Where** | Surat - 395006, Gujarat. The card says **Sarthana Jakatnaka**; the owner said **Punagam**. Full shop address still to confirm |
+| **Where** | **Punagam**, Surat - 395006, Gujarat (owner confirmed the area; the card's "Sarthana Jakatnaka" is old or wrong). Shop number and building still to confirm |
+| **Customers** | Everyone: painters and contractors, shops (wholesale), home owners (retail), and builders and companies (owner confirmed) |
 | **Contact person** | Vivek Kapadiya |
 | **Phone / WhatsApp** | +91 78629 37030 (shown with the WhatsApp sign on the card) |
 | **How customers buy** | Not confirmed yet. Expected: they call or WhatsApp, and the shop replies with availability and price (D-001) |
@@ -56,8 +57,9 @@ Used as the starting point for the website's look (D-008).
 |---|---|
 | Contact person | Vivek Kapadiya |
 | Phone | +91 78629 37030 |
-| WhatsApp | +91 78629 37030 (to confirm it's the number for website enquiries; D-005) |
-| Address | Sarthana Jakatnaka, Surat - 395006 (from the card). Owner says Punagam. Shop number, building and street to confirm |
+| WhatsApp | +91 78629 37030, used for the website's Call and WhatsApp buttons (owner confirmed; D-005) |
+| Days open | Monday to Saturday; Sunday closed (owner confirmed). Opening and closing times still to confirm |
+| Address | Punagam, Surat - 395006 (owner confirmed the area). Shop number, building, street and landmark to confirm. The card says "Sarthana Jakatnaka"; don't use it on the website |
 | Google Maps | Not known yet |
 | Email | Not known |
 | Social media | None known |
@@ -65,10 +67,8 @@ Used as the starting point for the website's look (D-008).
 ## Still to confirm
 Tracked in `backlog.md`. Don't put these on the website until the owner confirms them.
 
-- **Full address:** shop number, building, street and landmark. Is it Sarthana Jakatnaka, Punagam, or both written together? Is there a Google Maps listing?
-- **WhatsApp:** is +91 78629 37030 the number for website enquiries? Any second number?
-- **Business hours** and days open.
-- **Who buys:** painters, contractors, shops (wholesale), home owners (retail), or all?
+- **Full address:** shop number, building, street and landmark in Punagam. Is there a Google Maps listing?
+- **Opening and closing times** (days are Monday to Saturday, Sunday closed).
 - **Wholesale or retail** or both; minimum order.
 - **Delivery:** only in-shop, or delivery in Surat? Charge?
 - **Payment:** cash, UPI, credit for regular customers?

@@ -11,7 +11,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-002 | Plain HTML, CSS and JavaScript with no build step | Accepted |
 | D-003 | Own public repo `gujarat-sales`, hosted on the free GitHub Pages address from `main` | Proposed |
 | D-004 | All work on one `working` branch, merged to `main` by pull request | Replaced by D-011 |
-| D-005 | Enquiries go to +91 78629 37030 (phone and WhatsApp) | Proposed |
+| D-005 | Enquiries go to +91 78629 37030 (phone and WhatsApp) | Accepted |
 | D-006 | Contact details and shop settings in one file, `js/config.js` | Proposed |
 | D-007 | Brand names as text only, no brand logos on the website | Proposed |
 | D-008 | The website's look follows the visiting card | Proposed |
@@ -57,7 +57,7 @@ When you add a decision, add a row here too.
 
 ## D-005 — Enquiries go to +91 78629 37030
 - **Date:** 2026-10-19
-- **Status:** Proposed (the number is on the card with the WhatsApp sign; to confirm it's the one for the website)
+- **Status:** Accepted (owner confirmed on 2026-10-19)
 - **Context:** The Call and WhatsApp buttons need a number.
 - **Decision:** Use **+91 78629 37030** (Vivek Kapadiya) for both. The WhatsApp link format is `https://wa.me/917862937030?text=...`.
 - **Alternatives considered:** —
