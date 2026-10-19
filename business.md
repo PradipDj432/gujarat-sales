@@ -64,9 +64,9 @@ Used as the starting point for the website's look (D-008).
 | WhatsApp | +91 78629 37030, used for the website's Call and WhatsApp buttons (owner confirmed; D-005) |
 | Days open | Monday to Saturday; Sunday closed (owner confirmed). Opening and closing times still to confirm |
 | Address | Punagam, Surat - 395006 (owner confirmed the area). Shop number, building, street and landmark to confirm. The card says "Sarthana Jakatnaka"; don't use it on the website |
-| Google Maps | Not known yet |
-| Email | Not known |
-| Social media | None known |
+| Google Maps | The shop has a listing (owner confirmed). Link still to come |
+| Email | The shop has one (owner confirmed). Address still to come |
+| Social media | None (owner didn't pick Instagram or Facebook) |
 
 ## Still to confirm
 Tracked in `backlog.md`. Don't put these on the website until the owner confirms them.

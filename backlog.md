@@ -14,14 +14,15 @@ The few things to do next, in order. Keep this list short and current.
 4. **Dev:** share the plan for the first version (pages, look, home page layout) and get the owner's OK before building.
 
 ## Waiting on the business owner
-- [ ] **P1 · Owner** Full shop address in Punagam: shop number, building, street, landmark. Google Maps link.
+- [ ] **P1 · Owner** Full shop address in Punagam: shop number, building, street, landmark.
+- [ ] **P1 · Owner** Google Maps link of the shop listing, and the shop email address.
 - [ ] **P1 · Owner** Opening and closing times (days are Mon–Sat, Sunday closed).
 - [ ] **P1 · Owner** Look at the first-version plan and say OK or what to change.
 - [ ] **P2 · Owner** Photos of the shop (outside board and inside) and of the products.
 - [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Prices stay off the website (customers ask on WhatsApp).
 - [ ] **P2 · Owner** Surat delivery charge (free or paid?). Is credit given to regular customers?
 - [ ] **P2 · Owner** Confirm the look follows the visiting card (D-008).
-- [ ] **P3 · Owner** Years in business, email, social media, GST number (only if the owner wants them shown).
+- [ ] **P3 · Owner** Years in business, GST number (only if the owner wants them shown).
 - [ ] **P3 · Owner** Turn on GitHub Pages after the first merge (Settings → Pages → Deploy from a branch → `main` / `(root)`) (D-003).
 - [ ] **P3 · Owner** Decide on a custom domain (for example `gujaratsales.in`).
 - [ ] **P3 · Owner** Google Business Profile: does the shop have one? Add the website link to it once live.
