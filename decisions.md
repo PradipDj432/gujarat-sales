@@ -31,6 +31,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-022 | Logo is a text wordmark like the visiting card (slab-serif GUJARAT, speed lines, SALES), not a "GS" square | Accepted |
 | D-023 | SEO set-up: unique titles and descriptions, canonical URL, share image, structured data, sitemap, robots, plain-English product pages | Accepted |
 | D-024 | Lighter, brighter orange (#ee6c14 main, #ff8a3d accent); replaces the colours in D-015 | Accepted |
+| D-025 | Big bands (hero, page headers, call-to-action) are light peach with dark text, not solid orange; logo and buttons keep their orange | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -194,3 +195,8 @@ SEO set-up: one `h1` per page, a unique title and description per page, a canoni
 The orange is lighter and brighter: main bands and buttons #ee6c14 (hero gradient #f27a1f to #e4600c), accent #ff8a3d, text orange on white #c9540a. Set as CSS variables at the top of `css/style.css`. Replaces the colours in D-015 (white and orange stays).
 
 **Why:** the owner said the orange did not look good and asked for it a little lighter. White text on #ee6c14 is about 3.1:1, fine for big bold text but weaker for small text, so small text on orange bands stays white and bold, and buttons on orange are white with dark orange text.
+
+## D-025
+The hero, page headers and call-to-action band use a light peach background (#fff1e4 to #ffd2b0) with dark text. Logo, buttons, numbers and icons keep the orange from D-024. The footer stays dark.
+
+**Why:** the owner still found the orange too strong and asked for light orange as the background, with the logo colours unchanged. This also fixes the weak contrast of white text on orange.
