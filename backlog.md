@@ -19,8 +19,7 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P1 · Owner** Look at the first-version plan and say OK or what to change.
 - [ ] **P2 · Owner** Photos of the shop (outside board and inside) and of the products.
 - [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Show prices on the website or not?
-- [ ] **P2 · Owner** Minimum order for wholesale (customers are everyone: painters, contractors, shops, home owners, builders).
-- [ ] **P2 · Owner** Delivery in Surat or in-shop only; any charge. Payment methods (cash, UPI, credit).
+- [ ] **P2 · Owner** Surat delivery charge (free or paid?). Is credit given to regular customers?
 - [ ] **P2 · Owner** Brand logos on the website, or names only (D-007)?
 - [ ] **P2 · Owner** Confirm the look follows the visiting card (D-008).
 - [ ] **P3 · Owner** English only, or Gujarati too (D-010)? Show "॥ શ્રી ॥" on the site?
@@ -47,6 +46,8 @@ The few things to do next, in order. Keep this list short and current.
 
 ## Done
 - [x] **Dev** Project docs and rules: `README.md`, `business.md`, `decisions.md`, `backlog.md`, `progress.md`, `CLAUDE.md`, in the same format as Aara Culture and DK-Engineer.
+- [x] **Owner** Delivery in Surat; payment by UPI and cash.
+- [x] **Owner** Wholesale and retail both, no minimum order.
 - [x] **Owner** Customers: painters and contractors, wholesale shops, home owners, builders and companies.
 - [x] **Owner** Days open: Monday to Saturday, Sunday closed.
 - [x] **Owner** Website number: +91 78629 37030 for Call and WhatsApp (D-005).

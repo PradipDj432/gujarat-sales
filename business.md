@@ -12,6 +12,9 @@ Facts below come from the owner's visiting card (`references/visiting-card-front
 | **Card line** | "All Type Of Brush, Paints Roller & Tools" |
 | **Where** | **Punagam**, Surat - 395006, Gujarat (owner confirmed the area; the card's "Sarthana Jakatnaka" is old or wrong). Shop number and building still to confirm |
 | **Customers** | Everyone: painters and contractors, shops (wholesale), home owners (retail), and builders and companies (owner confirmed) |
+| **Wholesale / retail** | Both, with no minimum order (owner confirmed) |
+| **Delivery** | Delivery in Surat (owner confirmed). Charge not confirmed |
+| **Payment** | UPI and cash (owner confirmed) |
 | **Contact person** | Vivek Kapadiya |
 | **Phone / WhatsApp** | +91 78629 37030 (shown with the WhatsApp sign on the card) |
 | **How customers buy** | Not confirmed yet. Expected: they call or WhatsApp, and the shop replies with availability and price (D-001) |
@@ -69,9 +72,8 @@ Tracked in `backlog.md`. Don't put these on the website until the owner confirms
 
 - **Full address:** shop number, building, street and landmark in Punagam. Is there a Google Maps listing?
 - **Opening and closing times** (days are Monday to Saturday, Sunday closed).
-- **Wholesale or retail** or both; minimum order.
-- **Delivery:** only in-shop, or delivery in Surat? Charge?
-- **Payment:** cash, UPI, credit for regular customers?
+- **Delivery charge:** is Surat delivery free, or is there a charge or minimum order for it?
+- **Credit:** is credit given to regular customers? (Don't show it unless confirmed.)
 - **Full product range** beyond the card, with sizes. Prices on the website or not?
 - **Photos** of the shop and products.
 - **Brand logos** on the website, or names only (D-007)?
