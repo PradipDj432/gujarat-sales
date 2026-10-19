@@ -8,8 +8,8 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Dev:** share the plan for the first version (pages, look, home page layout) and ship it to `main` quickly (D-011).
-2. **Owner:** send photos of the shop and the products.
+1. **Dev:** add a white-background photo to every product card (`.photo-slot` in `products.html`: replace the icon with an `<img>`).
+2. **Owner:** send photos of the shop and the products, or allow the environment to reach image sites.
 
 ## Waiting on the business owner
 - [ ] **P1 · Owner** Look at the first-version plan and say OK or what to change.

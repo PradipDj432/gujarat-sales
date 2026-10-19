@@ -5,15 +5,15 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | Set-up. Project docs and rules are written; no website code yet. |
+| **Phase** | First version built and pushed to `main`; waiting on product photos. |
 | **Live site** | Not live. Planned at `https://pradipdj432.github.io/gujarat-sales/` once GitHub Pages is on (D-003). |
 | **Branches** | `dev` (work) and `main` (live). Push straight to `main`, no pull requests (D-011). |
 | **Blocked on** | Nothing. Photos of the shop and products would help but aren't needed to start. |
-| **Next step** | Dev: share the first-version plan, build it and ship it to `main`. Owner: turn on GitHub Pages after the first push. |
+| **Next step** | Add white-background product photos (need image sources the environment can reach, or the owner's own photos). Owner: turn on GitHub Pages. |
 
 ## Where we are
 - **Business:** GUJARAT SALES, Surat - 395006. "All Type Of Brush, Paints Roller & Tools". Contact Vivek Kapadiya, +91 78629 37030. 10 products and 5 brands from the visiting card (details in `business.md`).
-- **Website:** not built yet. Plan: plain HTML/CSS/JS static site on GitHub Pages, enquiries by call and WhatsApp, look taken from the visiting card (D-001, D-002, D-008).
+- **Website:** built (Home, Products, Contact, 404) in white and orange. Call first, then WhatsApp and email (D-014, D-016). Product cards show line icons until photos are added.
 - **Repo:** project docs (this file, `README.md`, `business.md`, `decisions.md`, `backlog.md`, `CLAUDE.md`) and the visiting card photos in `references/`.
 
 ## Log
@@ -29,3 +29,5 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - The owner said customers are everyone: painters and contractors, wholesale shops, home owners (retail), and builders and companies. The shop sells wholesale and retail, with no minimum order. Delivery is in Surat; payment by UPI and cash. No prices on the website: customers ask on WhatsApp. Brands are shown as text only, no logos (D-007 accepted). Website in English first (D-010 accepted); "॥ શ્રી ॥" is not shown. The shop has a Google Maps listing and an email; both still to come. No social media.
 - Owner changed the branch rule to: work on `dev`, push straight to `main`, no pull requests (D-011), to ship quickly.
 - Owner confirmed: shop is at 6, Sardar Nagar, Punagam, Surat - 395006; open Monday to Saturday 8 AM to 8 PM, Sunday closed; Google Maps link https://share.google/CEIrgwoDmdcpTSJ8T; email kapadiyavivek972@gmail.com; no credit. No charges or anything about charges on the website (D-013).
+- Built the first version on `dev` and pushed it to `main`: Home, Products (rollers, brushes, papers, other tools), Contact, 404. Contact details in `js/config.js`.
+- Owner said the first look was bad and asked for a white and orange theme and white-background photos for each item. Redesigned: sticky header with a Call button, big Call button, trust strip, rounded cards (D-015, D-016). Photos could not be downloaded: this environment's network blocks image sites, so cards use line icons for now.

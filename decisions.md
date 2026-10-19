@@ -21,7 +21,8 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-012 | No prices on the website; customers ask on WhatsApp | Accepted |
 | D-013 | No charges or fees mentioned anywhere on the website | Accepted |
 | D-014 | Contact order: Call first, then WhatsApp and email. Product enquiries use WhatsApp with a ready message | Accepted |
-| D-015 | Brand colour is provisional (#9a3b26), sampled from the card photo; confirm exact colours later | Proposed |
+| D-015 | White and orange theme, orange #f26a1b (buttons #d9560b); the owner asked for white and orange | Accepted |
+| D-016 | The site is for marketing and enquiries only: customers call to ask; no buying or ordering online | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -137,6 +138,11 @@ Call first, then WhatsApp and email on every page. Product "Ask" buttons open Wh
 **Why:** owner asked for Call to be the first option, and for enquiries not to depend on WhatsApp only.
 
 ## D-015
-The site colour `--red` is #9a3b26, sampled from the card photo. Shop lighting can shift it, so take exact codes from the printed card or the owner before calling it final.
+The site is white with orange: `--orange` #f26a1b for accents, `--orange-btn` #d9560b for buttons (white text stays readable). This replaces the first guess of #9a3b26 sampled from the card photo.
 
-**Why:** the card photo is the only colour source in the repo.
+**Why:** the owner said the theme is white and orange and that the first version looked bad.
+
+## D-016
+The site is for marketing only. Nobody buys online; customers call (first), WhatsApp or email to ask about products and prices. Call is the main button on every page (D-014).
+
+**Why:** the owner said the site is for marketing and customers call to enquire.

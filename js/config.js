@@ -2,6 +2,7 @@
 window.SHOP = {
   name: 'GUJARAT SALES',
   phone: '+917862937030',
+  phoneDisplay: '+91 78629 37030',
   whatsapp: '917862937030', // WhatsApp wants digits only, with the country code
   email: 'kapadiyavivek972@gmail.com',
   address: '6, Sardar Nagar, Punagam, Surat - 395006, Gujarat',
