@@ -2,9 +2,9 @@
    White and orange theme (D-015). Same layout style as the DK ENGINEER'S site (D-017). */
 
 :root {
-  --orange: #ff8a3d;
-  --orange-deep: #ee6c14;
-  --orange-dark: #d65a0c;
+  --orange: #ff9a55;
+  --orange-deep: #f47f2a;
+  --orange-dark: #e46c16;
   --orange-text: #c9540a;
   --charcoal: #1c1c1c;
 
@@ -13,8 +13,8 @@
   --line: #eadfd6;
   --surface: #fff6ef;
   --white: #fff;
-  --wa: #1d8f4e;
-  --wa-dark: #15703c;
+  --wa: #2fa35f;
+  --wa-dark: #258a4e;
 
   --font: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-head: "Barlow Condensed", "Barlow", system-ui, sans-serif;
@@ -38,7 +38,7 @@ html {
 
 body {
   margin: 0;
-  padding-bottom: 64px;
+  padding-bottom: 52px;
   background: var(--white);
   color: var(--text);
   font-family: var(--font);
@@ -106,16 +106,16 @@ p { margin: 0 0 1em; }
   align-items: center;
   justify-content: center;
   gap: 8px;
-  min-height: 48px;
-  padding: 12px 24px;
+  min-height: 38px;
+  padding: 7px 16px;
   border: 2px solid var(--orange-deep);
   border-radius: var(--radius);
   background: var(--orange-deep);
   color: var(--white);
   font-family: var(--font-head);
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -129,8 +129,8 @@ p { margin: 0 0 1em; }
 .button-whatsapp { background: var(--wa); border-color: var(--wa); }
 .button-whatsapp:hover { background: var(--wa-dark); border-color: var(--wa-dark); }
 
-.button-small { min-height: 40px; padding: 8px 16px; font-size: 1rem; }
-.button-big { min-height: 56px; padding: 14px 32px; font-size: 1.375rem; }
+.button-small { min-height: 32px; padding: 5px 12px; font-size: 0.9375rem; }
+.button-big { min-height: 42px; padding: 9px 22px; font-size: 1.125rem; }
 .button-row { display: flex; flex-wrap: wrap; gap: 12px; }
 
 /* Buttons on a light orange band: same as normal buttons; the outline button is dark orange */
@@ -372,7 +372,7 @@ img.art { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; }
 .product-body p { margin: 0; color: var(--muted); font-size: 0.9375rem; line-height: 1.45; }
 .product h3 { margin: 0; font-size: 1.1875rem; }
 .product-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
-.product-actions .button { flex: 1; padding-left: 10px; padding-right: 10px; }
+.product-actions .button { flex: 1; padding-left: 8px; padding-right: 8px; }
 .section-note { margin: 28px 0 0; color: var(--muted); }
 
 @media (min-width: 720px) {
@@ -425,7 +425,7 @@ img.art { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; }
 /* ---------- Phone action bar: Call, WhatsApp, Email ---------- */
 
 .action-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; display: flex; background: var(--white); box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.18); }
-.action-bar a { display: flex; flex: 1; align-items: center; justify-content: center; gap: 8px; min-height: 56px; color: var(--white); font-family: var(--font-head); font-size: 1.125rem; font-weight: 600; letter-spacing: 0.06em; text-decoration: none; text-transform: uppercase; }
+.action-bar a { display: flex; flex: 1; align-items: center; justify-content: center; gap: 8px; min-height: 44px; color: var(--white); font-family: var(--font-head); font-size: 1rem; font-weight: 600; letter-spacing: 0.06em; text-decoration: none; text-transform: uppercase; }
 .action-call { flex: 1.3 !important; background: var(--orange-deep); }
 .action-wa { background: var(--wa); }
 .action-mail { background: var(--charcoal); }
@@ -438,7 +438,7 @@ img.art { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; }
 @media (max-width: 479px) {
   .logo-main { font-size: 1.45rem; }
   .logo-sub { font-size: 0.85rem; }
-  .button-big { font-size: 1.25rem; padding-left: 20px; padding-right: 20px; }
+  .button-big { font-size: 1.0625rem; padding-left: 18px; padding-right: 18px; }
 }
 
 /* ---------- Logo (wordmark like the visiting card: slab-serif name, speed lines, SALES) ---------- */

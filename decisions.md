@@ -35,6 +35,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-026 | Product cards show "Best for" and "Sizes" and link to a page for each product (`product-<name>.html`). No brand line. Sizes say "All sizes available" | Accepted |
 | D-027 | Product range reworked from the two reference sites and web search: 18 products in 4 groups, "Which one do I need?" guide, longer product pages | Accepted |
 | D-028 | Product names checked against online sellers; added Flat Wall Brush, Roller Handle, Paint Tray, Extension Pole; renamed Rustic Trowel and Paint Scraper (Trishul) | Accepted |
+| D-029 | Smaller buttons (less padding), and lighter orange (#f47f2a) and green (#2fa35f); replaces the colour values in D-024 | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -218,3 +219,8 @@ The product list was reworked using aarohiindustries.in, general web search (Ind
 Every product name was compared with what Indian sellers list online (IndiaMART, TradeIndia, Aarohi Industries). Names that sellers use stay. The owner's own names that are not found online (Lapi Patra, Deluxe, Jyoti, Yellow Line, Brown Line) stay because they come from the owner. Added famous products: Flat Wall Brush, Roller Handle, Paint Tray, Extension Pole (Roller Stick), in a new group "Roller accessories". "Rustic Trowel" is now "Rustic Trowel (Plastering Trowel)", "Trishul Scraper" is now "Paint Scraper (Trishul)", and Lapi Patra says it is a putty knife.
 
 **Why:** the owner asked that names match the internet, that names which do not exist be removed, and that famous items be added. Nothing was removed, because every item is either a real product type or the owner's own item.
+
+## D-029
+Buttons are smaller: normal 38px high (was 48), small 32px (was 40), big 42px (was 56), the phone bottom bar 44px (was 56), with less padding and slightly smaller text. Colours are lighter: orange `--orange-deep` #f47f2a, accent #ff9a55, hover #e46c16; green (WhatsApp) #2fa35f, hover #258a4e. Text orange on white stays #c9540a so it can be read.
+
+**Why:** the owner said the buttons looked too big and had too much padding, and asked for lighter orange and green. White text on the lighter colours is softer (about 2.8:1 on the orange); button text is bold and uppercase to stay readable.
