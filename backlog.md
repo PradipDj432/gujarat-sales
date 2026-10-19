@@ -18,7 +18,7 @@ The few things to do next, in order. Keep this list short and current.
 - [ ] **P1 · Owner** Opening and closing times (days are Mon–Sat, Sunday closed).
 - [ ] **P1 · Owner** Look at the first-version plan and say OK or what to change.
 - [ ] **P2 · Owner** Photos of the shop (outside board and inside) and of the products.
-- [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Show prices on the website or not?
+- [ ] **P2 · Owner** Full product range beyond the card, with sizes (for example roller sizes in inches). Prices stay off the website (customers ask on WhatsApp).
 - [ ] **P2 · Owner** Surat delivery charge (free or paid?). Is credit given to regular customers?
 - [ ] **P2 · Owner** Brand logos on the website, or names only (D-007)?
 - [ ] **P2 · Owner** Confirm the look follows the visiting card (D-008).

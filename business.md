@@ -15,6 +15,7 @@ Facts below come from the owner's visiting card (`references/visiting-card-front
 | **Wholesale / retail** | Both, with no minimum order (owner confirmed) |
 | **Delivery** | Delivery in Surat (owner confirmed). Charge not confirmed |
 | **Payment** | UPI and cash (owner confirmed) |
+| **Prices** | Not shown on the website. Customers call or WhatsApp to ask the price (owner confirmed) |
 | **Contact person** | Vivek Kapadiya |
 | **Phone / WhatsApp** | +91 78629 37030 (shown with the WhatsApp sign on the card) |
 | **How customers buy** | Not confirmed yet. Expected: they call or WhatsApp, and the shop replies with availability and price (D-001) |
@@ -74,7 +75,7 @@ Tracked in `backlog.md`. Don't put these on the website until the owner confirms
 - **Opening and closing times** (days are Monday to Saturday, Sunday closed).
 - **Delivery charge:** is Surat delivery free, or is there a charge or minimum order for it?
 - **Credit:** is credit given to regular customers? (Don't show it unless confirmed.)
-- **Full product range** beyond the card, with sizes. Prices on the website or not?
+- **Full product range** beyond the card, with sizes.
 - **Photos** of the shop and products.
 - **Brand logos** on the website, or names only (D-007)?
 - **Language:** English only, or Gujarati too (D-010)?

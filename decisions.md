@@ -18,6 +18,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-009 | The visiting card is kept in `references/` as the source of business facts | Accepted |
 | D-010 | Website in English first; Gujarati later if the owner wants | Proposed |
 | D-011 | Three branches: `working` → `dev` → `main` | Accepted |
+| D-012 | No prices on the website; customers ask on WhatsApp | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -110,3 +111,11 @@ When you add a decision, add a row here too.
 - **Decision:** Build on `working`. Each feature goes by pull request from `working` into `dev`. When the owner says so, `dev` goes by pull request into `main`, which is live. After that, `dev` and `working` are fast-forwarded to `main`. Steps are in `CLAUDE.md`.
 - **Alternatives considered:** Only `working` → `main`, like Aara Culture and DK-Engineer (D-004); `dev` as a preview copy that is never merged.
 - **Consequences:** Two pull requests per release (`working` → `dev`, then `dev` → `main`), but `main` only changes when the owner is happy with `dev`. Several features can collect on `dev` and go live together.
+
+## D-012 — No prices on the website; customers ask on WhatsApp
+- **Date:** 2026-10-19
+- **Status:** Accepted
+- **Context:** Paint-tool prices change often, and the shop sells both wholesale and retail with no minimum order (so price depends on quantity).
+- **Decision:** Show no prices. Each product has an "Ask price on WhatsApp" button with a ready message, and the Call button is always near.
+- **Alternatives considered:** A price list on the site (goes out of date, needs a price list from the owner); prices for some items only.
+- **Consequences:** Nothing to keep up to date. Every price enquiry is a call or WhatsApp message. A price list can be added later with a new decision.
