@@ -3,34 +3,96 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact | GUJARAT SALES, Surat</title>
-  <meta name="description" content="Call, WhatsApp or email GUJARAT SALES in Punagam, Surat. Open Monday to Saturday, 8 AM to 8 PM.">
+  <title>Contact | GUJARAT SALES, Punagam, Surat</title>
+  <meta name="description" content="Call, WhatsApp or email GUJARAT SALES, 6 Sardar Nagar, Punagam, Surat 395006. Open Monday to Saturday, 8 AM to 8 PM.">
+  <meta property="og:title" content="Contact | GUJARAT SALES, Punagam, Surat">
+  <meta property="og:description" content="Call, WhatsApp or email GUJARAT SALES, 6 Sardar Nagar, Punagam, Surat 395006. Open Monday to Saturday, 8 AM to 8 PM.">
+  <meta name="theme-color" content="#d9560b">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/config.js" defer></script>
+  <script src="js/common.js" defer></script>
+  <script src="js/contact.js" defer></script>
 </head>
 <body data-page="contact">
-  <div id="site-header"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"></header>
 
-  <main>
-    <section>
-      <div class="wrap">
-        <h2>Contact us</h2>
-        <p>Call or WhatsApp us for prices and availability. You can also email us.</p>
-        <div data-contact="big"></div>
+  <main id="main">
+    <section class="page-header on-orange">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Call us for prices and stock</h1>
+        <p class="lede">Call is the fastest way. You can also WhatsApp, email or visit the shop.</p>
+        <div class="page-header-actions button-row">
+          <a class="button button-big" data-call></a>
+          <a class="button button-whatsapp" data-whatsapp="Hi GUJARAT SALES, I have an inquiry.">WhatsApp</a>
+        </div>
       </div>
     </section>
 
-    <section class="band">
-      <div class="wrap">
-        <h2>Visit the shop</h2>
-        <p><strong>Address</strong><br><span data-field="address"></span></p>
-        <p><strong>Opening hours</strong><br><span data-field="hours"></span></p>
-        <a class="btn btn-mail" data-field="map" href="#">Open in Google Maps</a>
+    <section class="section">
+      <div class="container">
+        <ul class="contact-cards">
+          <li class="contact-card">
+            <span class="contact-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
+            <div>
+              <h2>Call us</h2>
+              <p><a data-call></a></p>
+              <p><a data-whatsapp="Hi GUJARAT SALES, I have an inquiry.">Chat on WhatsApp</a></p>
+            </div>
+          </li>
+          <li class="contact-card">
+            <span class="contact-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+            <div>
+              <h2>Email us</h2>
+              <p><a data-email></a></p>
+            </div>
+          </li>
+          <li class="contact-card">
+            <span class="contact-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div>
+              <h2>Visit us</h2>
+              <p data-address></p>
+              <p data-hours></p>
+              <a data-map-link target="_blank" rel="noopener">Open in Google Maps</a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="contact-layout">
+          <div id="inquiry">
+            <h2>Send an inquiry</h2>
+            <p>Tell us what you need: item, size and quantity. We will reply with availability and the price.</p>
+            <form class="form" id="inquiry-form">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+              </div>
+              <div class="field">
+                <label for="message">What do you need?</label>
+                <textarea id="message" name="message" required placeholder="For example: 20 green thread rollers"></textarea>
+              </div>
+              <div class="button-row">
+                <button class="button button-whatsapp" type="submit" data-channel="whatsapp">Send on WhatsApp</button>
+                <button class="button" type="submit" data-channel="email">Send by email</button>
+              </div>
+              <p class="form-note">"Send by email" opens your email app with the message ready to send. If nothing opens, email us at <a data-email></a> or call <a data-call></a>.</p>
+            </form>
+          </div>
+          <iframe class="map" data-map-embed title="Map of Sardar Nagar, Punagam, Surat" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
     </section>
   </main>
 
-  <div id="site-footer"></div>
-  <script src="js/config.js"></script>
-  <script src="js/common.js"></script>
+  <footer id="site-footer" class="site-footer"></footer>
 </body>
 </html>

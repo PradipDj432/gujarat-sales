@@ -23,6 +23,8 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-014 | Contact order: Call first, then WhatsApp and email. Product enquiries use WhatsApp with a ready message | Accepted |
 | D-015 | White and orange theme, orange #f26a1b (buttons #d9560b); the owner asked for white and orange | Accepted |
 | D-016 | The site is for marketing and enquiries only: customers call to ask; no buying or ordering online | Accepted |
+| D-017 | Layout and style follow the DK ENGINEER'S site: orange hero band, numbered category tiles, feature cards, call-to-action band, phone action bar | Accepted |
+| D-018 | Product pictures are simple drawings (`data-art`) until real white-background photos are added | Proposed |
 
 When you add a decision, add a row here too.
 
@@ -146,3 +148,14 @@ The site is white with orange: `--orange` #f26a1b for accents, `--orange-btn` #d
 The site is for marketing only. Nobody buys online; customers call (first), WhatsApp or email to ask about products and prices. Call is the main button on every page (D-014).
 
 **Why:** the owner said the site is for marketing and customers call to enquire.
+
+## D-017
+The site copies the structure of the owner's DK ENGINEER'S site (hero with a collage, numbered category tiles, "why us" cards, brands, about, a call-to-action band, a four-column footer, an inquiry form), in white and orange (D-015) instead of blue and red. The mobile bottom bar is Call, WhatsApp, Email, in that order (D-014).
+
+**Why:** the owner said the second version was only "20 percent" there and asked for a marketing-style site like DK-Engineer.
+
+## D-018
+Until real photos exist, each product shows a drawing made in `js/common.js` (`data-art="roller:yellow-line"`). To use a photo, replace the `<div class="art" data-art="...">` with `<img class="art" src="images/..." alt="...">` (JPEG, about 1000px wide, under 250 KB, white background).
+
+**Why:** the owner wants white-background photos for each item, but the build environment cannot download images from the internet (network policy). The drawings keep the pages looking finished until the photos arrive.
+

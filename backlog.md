@@ -8,7 +8,7 @@ Everything still to do, newest ideas at the bottom of each section. When work st
 ## Next up
 The few things to do next, in order. Keep this list short and current.
 
-1. **Dev:** add a white-background photo to every product card (`.photo-slot` in `products.html`: replace the icon with an `<img>`).
+1. **Dev:** add a white-background photo to every product card (replace each `data-art` drawing in `index.html` and `products.html` with an `<img>`, D-018).
 2. **Owner:** send photos of the shop and the products, or allow the environment to reach image sites.
 
 ## Waiting on the business owner

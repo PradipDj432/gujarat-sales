@@ -21,7 +21,7 @@ The website for **GUJARAT SALES**, Surat (395006), Gujarat: all types of brushes
 - Hosted free on **GitHub Pages** from the `main` branch, repo root, at `https://pradipdj432.github.io/gujarat-sales/` (D-003).
 - Customers enquire by **Call** or **WhatsApp** buttons with a ready message (D-001, D-005).
 - Contact details (phone, WhatsApp, address, map) live in **one file, `js/config.js`** (D-006).
-- The look follows the visiting card: orange-red and white, bold "GUJARAT" name (D-008).
+- White and orange look, with the same page layout as the DK ENGINEER'S site (D-015, D-017).
 
 ## How we work (branches)
 One working branch, **`dev`**, and **`main`** (live). Work is done on `dev` and pushed straight to `main`; there are no pull requests (D-011). The steps are in `CLAUDE.md` → "Branches".
@@ -35,11 +35,22 @@ gujarat-sales/
 ├── decisions.md      Decision log (D-001, D-002, …)
 ├── backlog.md        To-do list
 ├── progress.md       Status and work log
+├── index.html        Home
+├── products.html     Products: rollers, brushes, papers, other tools
+├── about.html        About us
+├── contact.html      Contact, inquiry form and map
+├── 404.html          Page not found
+├── css/style.css     All styles (colours and fonts at the top)
+├── js/
+│   ├── config.js     Phone, WhatsApp, email, address, hours, map (edit here only)
+│   ├── common.js     Header, footer, phone action bar, product drawings
+│   └── contact.js    Turns the inquiry form into a WhatsApp or email message
+├── images/           Favicon (add product photos here)
 └── references/
     ├── visiting-card-front.jpg   Front: name, card line, contact person and number
     └── visiting-card-back.jpg    Back: product list, brands, address
 ```
-The website files (`index.html`, `css/`, `js/`, `images/`) will be added in the repo root when the first version is built. Update this layout then.
+Product photos: replace a card's `<div class="art" data-art="...">` with `<img class="art" src="images/name.jpg" alt="...">` (D-018).
 
 ## Run it on your computer
 Once the site exists, start a small local server in the project folder (some browsers block scripts on pages opened straight from a file):

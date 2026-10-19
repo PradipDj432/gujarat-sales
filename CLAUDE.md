@@ -35,8 +35,8 @@ Never leave work only on `dev`: when a piece of work is finished, push it to `ma
 - Phone, WhatsApp, address and map live in one place, `js/config.js` (D-006). Don't hard-code them in the pages.
 
 ## Design
-- The look follows the visiting card (D-008): orange-red and white, a bold slab-serif "GUJARAT" with a lighter "SALES", and the thin curved-line pattern. Set colours and fonts once, as CSS variables at the top of `css/style.css`; don't add one-off colours or sizes.
-- Pick exact colour codes from the card when the site is built, and record them in `decisions.md`. Don't guess them from a photo taken under shop lighting.
+- White and orange (D-015), with the same layout style as the DK ENGINEER'S site (D-017). It is a marketing site: **Call is always the first button**, then WhatsApp, then Email (D-014, D-016). Set colours and fonts once, as CSS variables at the top of `css/style.css`; don't add one-off colours or sizes.
+- Product pictures should be white-background photos (D-018). Until they exist, the drawings from `js/common.js` are used.
 
 ## Code
 - Plain HTML, CSS and JavaScript only. No framework, no build step, no `npm` (D-002).

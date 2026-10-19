@@ -5,7 +5,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 ## Current status
 | | |
 |---|---|
-| **Phase** | First version built and pushed to `main`; waiting on product photos. |
+| **Phase** | Marketing-style site (DK-Engineer layout) pushed to `main`; waiting on product photos. |
 | **Live site** | Not live. Planned at `https://pradipdj432.github.io/gujarat-sales/` once GitHub Pages is on (D-003). |
 | **Branches** | `dev` (work) and `main` (live). Push straight to `main`, no pull requests (D-011). |
 | **Blocked on** | Nothing. Photos of the shop and products would help but aren't needed to start. |
@@ -13,7 +13,7 @@ Where the project stands right now, and a dated log of what was done. Update thi
 
 ## Where we are
 - **Business:** GUJARAT SALES, Surat - 395006. "All Type Of Brush, Paints Roller & Tools". Contact Vivek Kapadiya, +91 78629 37030. 10 products and 5 brands from the visiting card (details in `business.md`).
-- **Website:** built (Home, Products, Contact, 404) in white and orange. Call first, then WhatsApp and email (D-014, D-016). Product cards show line icons until photos are added.
+- **Website:** built (Home, Products, About, Contact, 404) in white and orange with the DK-Engineer layout (D-017). Call first, then WhatsApp and email (D-014, D-016). Product cards show drawings until photos are added (D-018).
 - **Repo:** project docs (this file, `README.md`, `business.md`, `decisions.md`, `backlog.md`, `CLAUDE.md`) and the visiting card photos in `references/`.
 
 ## Log
@@ -31,3 +31,5 @@ Where the project stands right now, and a dated log of what was done. Update thi
 - Owner confirmed: shop is at 6, Sardar Nagar, Punagam, Surat - 395006; open Monday to Saturday 8 AM to 8 PM, Sunday closed; Google Maps link https://share.google/CEIrgwoDmdcpTSJ8T; email kapadiyavivek972@gmail.com; no credit. No charges or anything about charges on the website (D-013).
 - Built the first version on `dev` and pushed it to `main`: Home, Products (rollers, brushes, papers, other tools), Contact, 404. Contact details in `js/config.js`.
 - Owner said the first look was bad and asked for a white and orange theme and white-background photos for each item. Redesigned: sticky header with a Call button, big Call button, trust strip, rounded cards (D-015, D-016). Photos could not be downloaded: this environment's network blocks image sites, so cards use line icons for now.
+- Owner said the second version was only "20 percent" there and asked for a marketing look like the DK-Engineer site. Studied the DK-Engineer repo and rebuilt the site in the same style (D-017): orange hero with a collage, numbered category tiles, feature cards, brands, visit-us block, call-to-action band, four-column footer, inquiry form with WhatsApp or email, phone action bar (Call, WhatsApp, Email), new About page.
+- Removed "no minimum order" from the site. D-013 says nothing about charges or minimum orders goes on the website; it had slipped into the first versions.
