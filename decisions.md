@@ -16,7 +16,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-007 | Brand names as text only, no brand logos on the website | Accepted |
 | D-008 | The website's look follows the visiting card | Proposed |
 | D-009 | The visiting card is kept in `references/` as the source of business facts | Accepted |
-| D-010 | Website in English first; Gujarati later if the owner wants | Proposed |
+| D-010 | Website in English first; Gujarati later if the owner wants | Accepted |
 | D-011 | Three branches: `working` → `dev` → `main` | Accepted |
 | D-012 | No prices on the website; customers ask on WhatsApp | Accepted |
 
@@ -98,11 +98,11 @@ When you add a decision, add a row here too.
 
 ## D-010 — Website in English first; Gujarati later if the owner wants
 - **Date:** 2026-10-19
-- **Status:** Proposed
+- **Status:** Accepted (owner confirmed on 2026-10-19)
 - **Context:** The card is in English (with "॥ શ્રી ॥" in Gujarati). Many customers in Surat may prefer Gujarati.
 - **Decision:** Build the first version in English, with the product names exactly as on the card. Add a Gujarati version later if the owner asks.
 - **Alternatives considered:** Gujarati only; both languages from the start (twice the text to keep up to date).
-- **Consequences:** Faster first version. Adding Gujarati later means a second set of pages or a language switch.
+- **Consequences:** Faster first version. Adding Gujarati later means a second set of pages or a language switch. The "॥ શ્રી ॥" from the card is not shown on the website (owner's choice).
 
 ## D-011 — Three branches: `working` → `dev` → `main`
 - **Date:** 2026-10-19
