@@ -1,6 +1,6 @@
 # Gujarat Sales — Website
 
-The website for **GUJARAT SALES**, Surat (395011), Gujarat: all types of brushes, paint rollers and painting tools, with brands like Norton, 3M, CUMI, Stronger and Asian Paints. It shows what the shop sells and where it is, and makes it easy for customers to call or WhatsApp. There's no online ordering or payment.
+The website for **GUJARAT SALES**, Surat (395006), Gujarat: all types of brushes, paint rollers and painting tools, with brands like Norton, 3M, CUMI, Stronger and Asian Paints. It shows what the shop sells and where it is, and makes it easy for customers to call or WhatsApp. There's no online ordering or payment.
 
 ## Project docs
 | File | What's in it |

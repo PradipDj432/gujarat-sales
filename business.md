@@ -10,7 +10,7 @@ Facts below come from the owner's visiting card (`references/visiting-card-front
 | **Name** | GUJARAT SALES |
 | **What we do** | Sell all types of brushes, paint rollers and painting tools |
 | **Card line** | "All Type Of Brush, Paints Roller & Tools" |
-| **Where** | Shop No. 6, Sardar Nagar-1, Kalyan Nagar, Punagam, Varachha, Surat - 395011, Gujarat (owner confirmed) |
+| **Where** | Sardar Nagar-1, Kalyan Nagar, Punagam, Varachha, Surat - 395006, Gujarat (owner confirmed as the final address) |
 | **Customers** | Everyone: painters and contractors, shops (wholesale), home owners (retail), and builders and companies (owner confirmed) |
 | **Wholesale / retail** | Both, with no minimum order (owner confirmed) |
 | **Delivery** | Delivery in Surat. No delivery charge or anything about charges is shown on the website (owner's rule, D-013) |
@@ -63,7 +63,7 @@ Used as the starting point for the website's look (D-008).
 | Phone | +91 78629 37030 |
 | WhatsApp | +91 78629 37030, used for the website's Call and WhatsApp buttons (owner confirmed; D-005) |
 | Opening hours | Monday to Saturday, 8 AM to 8 PM. Sunday closed (owner confirmed) |
-| Address | Shop No. 6, Sardar Nagar-1, Kalyan Nagar, Punagam, Varachha, Surat - 395011 (owner confirmed; the pin code is 395011, not 395006 as on the card). The card says "Sarthana Jakatnaka"; don't use that on the website |
+| Address | Sardar Nagar-1, Kalyan Nagar, Punagam, Varachha, Surat - 395006, Gujarat (owner confirmed as the final address, used everywhere on the website; the earlier "Shop No. 6" and pin code 395011 are not used). The card says "Sarthana Jakatnaka"; don't use that on the website |
 | Google Maps | https://maps.app.goo.gl/3ByvtqhP69i9da6fA (owner gave this link for the location; the shop is near this pin). Earlier listing link: https://share.google/CEIrgwoDmdcpTSJ8T |
 | Email | kapadiyavivek972@gmail.com |
 | Social media | None (owner didn't pick Instagram or Facebook) |

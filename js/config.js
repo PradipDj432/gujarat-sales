@@ -15,10 +15,10 @@ const BUSINESS = {
   whatsappNumber: "917862937030",
 
   address: {
-    lines: ["Shop No. 6, Sardar Nagar-1", "Kalyan Nagar"],
+    lines: ["Sardar Nagar-1", "Kalyan Nagar"],
     area: "Punagam, Varachha",
     city: "Surat",
-    pin: "395011",
+    pin: "395006",
     state: "Gujarat",
   },
 
@@ -26,5 +26,5 @@ const BUSINESS = {
 
   // The link opens the shop's location in Google Maps. The embed shows the map on the contact page.
   mapLink: "https://maps.app.goo.gl/3ByvtqhP69i9da6fA",
-  mapEmbed: "https://maps.google.com/maps?q=Sardar+Nagar-1,+Kalyan+Nagar,+Punagam,+Varachha,+Surat+395011&z=16&output=embed",
+  mapEmbed: "https://maps.google.com/maps?q=Sardar+Nagar-1,+Kalyan+Nagar,+Punagam,+Varachha,+Surat,+Gujarat+395006&z=16&output=embed",
 };
