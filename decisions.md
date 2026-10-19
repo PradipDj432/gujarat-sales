@@ -34,6 +34,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-025 | Big bands (hero, page headers, call-to-action) are light peach with dark text, not solid orange; logo and buttons keep their orange | Accepted |
 | D-026 | Product cards show "Best for" and "Sizes" and link to a page for each product (`product-<name>.html`). No brand line. Sizes say "All sizes available" | Accepted |
 | D-027 | Product range reworked from the two reference sites and web search: 18 products in 4 groups, "Which one do I need?" guide, longer product pages | Accepted |
+| D-028 | Product names checked against online sellers; added Flat Wall Brush, Roller Handle, Paint Tray, Extension Pole; renamed Rustic Trowel and Paint Scraper (Trishul) | Accepted |
 
 When you add a decision, add a row here too.
 
@@ -212,3 +213,8 @@ Each product card (style taken from aarohiindustries.in) shows the name, a plain
 The product list was reworked using aarohiindustries.in, general web search (IndiaMART and similar listings) and the owner's items: rollers (yellow line, brown line, green thread, microfiber, exterior, epoxy, texture, foam), brushes (PU, Deluxe, Jyoti), sanding papers (water, brown, Norton and Stronger), and hand tools and spray paint (rustic trowel, lapi patra, trishul scraper, spray paint). The Products page has a "Which one do I need?" guide, and each product page says what it is, what it is best for, what it works with, a tip, and how to get it. "Rustic Towel" is now "Rustic Trowel" and "Yellow Texture Roller" has the page name `texture-roller`.
 
 **Why:** the owner said the first list may be wrong and the two reference sites are the right standard. Items not on the visiting card are marked in `business.md` for the owner to confirm; remove any the shop does not sell.
+
+## D-028
+Every product name was compared with what Indian sellers list online (IndiaMART, TradeIndia, Aarohi Industries). Names that sellers use stay. The owner's own names that are not found online (Lapi Patra, Deluxe, Jyoti, Yellow Line, Brown Line) stay because they come from the owner. Added famous products: Flat Wall Brush, Roller Handle, Paint Tray, Extension Pole (Roller Stick), in a new group "Roller accessories". "Rustic Trowel" is now "Rustic Trowel (Plastering Trowel)", "Trishul Scraper" is now "Paint Scraper (Trishul)", and Lapi Patra says it is a putty knife.
+
+**Why:** the owner asked that names match the internet, that names which do not exist be removed, and that famous items be added. Nothing was removed, because every item is either a real product type or the owner's own item.
