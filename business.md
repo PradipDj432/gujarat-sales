@@ -64,7 +64,7 @@ Used as the starting point for the website's look (D-008).
 | WhatsApp | +91 78629 37030, used for the website's Call and WhatsApp buttons (owner confirmed; D-005) |
 | Opening hours | Monday to Saturday, 8 AM to 8 PM. Sunday closed (owner confirmed) |
 | Address | Sardar Nagar-1, Kalyan Nagar, Punagam, Varachha, Surat - 395006, Gujarat (owner confirmed as the final address, used everywhere on the website; the earlier "Shop No. 6" and pin code 395011 are not used). The card says "Sarthana Jakatnaka"; don't use that on the website |
-| Google Maps | https://maps.app.goo.gl/DhGY7ZWzsg6Wyihf8 (the GUJARAT SALES listing; owner gave this link and the embed code for the contact page map) |
+| Google Maps | https://www.google.com/maps?cid=7343727991767936096 (fixed link to the GUJARAT SALES listing, built from the listing ID in the owner's embed code; the short links from Google's Share button change every time and are not used) |
 | Email | kapadiyavivek972@gmail.com |
 | Social media | None (owner didn't pick Instagram or Facebook) |
 

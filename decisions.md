@@ -24,6 +24,7 @@ A log of choices made for the Gujarat Sales website and why. Add new decisions a
 | D-015 | White and orange theme, orange #f26a1b (buttons #d9560b); the owner asked for white and orange | Accepted |
 | D-016 | The site is for marketing and enquiries only: customers call to ask; no buying or ordering online | Accepted |
 | D-017 | Layout and style follow the DK ENGINEER'S site: orange hero band, numbered category tiles, feature cards, call-to-action band, phone action bar | Accepted |
+| D-019 | One fixed Google Maps link (the listing ID link), not the short Share links | Accepted |
 | D-018 | Product pictures are simple drawings (`data-art`) until real white-background photos are added | Proposed |
 
 When you add a decision, add a row here too.
@@ -158,4 +159,9 @@ The site copies the structure of the owner's DK ENGINEER'S site (hero with a col
 Until real photos exist, each product shows a drawing made in `js/common.js` (`data-art="roller:yellow-line"`). To use a photo, replace the `<div class="art" data-art="...">` with `<img class="art" src="images/..." alt="...">` (JPEG, about 1000px wide, under 250 KB, white background).
 
 **Why:** the owner wants white-background photos for each item, but the build environment cannot download images from the internet (network policy). The drawings keep the pages looking finished until the photos arrive.
+
+## D-019
+The website uses one fixed Google Maps link, `https://www.google.com/maps?cid=7343727991767936096`, set once in `js/config.js`. The short links from Google's Share button (`maps.app.goo.gl/...`) are a new link every time, so they are not used.
+
+**Why:** the owner wanted one static link. The number is the listing's own ID, taken from the owner's embed code, so it does not change.
 
